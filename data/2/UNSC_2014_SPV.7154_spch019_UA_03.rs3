@@ -1,0 +1,79 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="2" relname="background">The detention of Russian citizen members of subversive groups coordinated by the Russian federal security services and military intelligence is carried out on a daily basis by the security services of Ukraine,</segment>
+		<segment id="2" parent="25" relname="span">yielding the following facts, which are just a few out of dozens.</segment>
+		<segment id="3" parent="22" relname="span">On 8 April, Russian citizen Maria Koleda,</segment>
+		<segment id="4" parent="3" relname="e-elaboration">who fulfilled intelligence service tasks to destabilize in eastern Ukraine,</segment>
+		<segment id="5" parent="23" relname="sameunit">was detained in Herson.</segment>
+		<segment id="6" parent="36" relname="list">The Russian saboteur who was about to seize such strategic facilities as the Kakhovka hydroelectric power plant was detained in the region of Herson.</segment>
+		<segment id="7" parent="36" relname="list">On 10 March, a representative of the Russian Federation military intelligence service was detained in Donetsk.</segment>
+		<segment id="8" parent="36" relname="list">On 12 March, the intelligence group of the Russian armed forces that infiltrated the Herson territory from Crimea was detained at the control point.</segment>
+		<segment id="9" parent="26" relname="span">On 20 March, a Russian citizen named Markhov,</segment>
+		<segment id="10" parent="9" relname="e-elaboration">an officer of the main intelligence directorate of the general staff of Russian Federation armed forces,</segment>
+		<segment id="11" parent="27" relname="sameunit">was detained in Chernigiv.</segment>
+		<segment id="12" parent="29" relname="span">On the same day, a Russian citizen named Oleg Bakhtiar,</segment>
+		<segment id="13" parent="12" relname="antithesis">one of the leaders of the Eurasian Youth Union of Russia,</segment>
+		<segment id="14" parent="30" relname="sameunit">was detained in Kyiv</segment>
+		<segment id="15" parent="31" relname="circumstance">as he was preparing a group of people under the guise of civil activities for the criminal seizure of the Verkhovna Rada and the Cabinet of Ministers.</segment>
+		<segment id="16" parent="17" relname="attribution">All of the arrestees confirmed</segment>
+		<segment id="17" parent="33" relname="span">being part of a network of persons conducting Russian subversive activities in Ukraine.</segment>
+		<segment id="18" parent="33" relname="evidence">Intercepted radio communications of the aforementioned groups, and others, with their Russian coordinators are available and provide other clear evidence.</segment>
+		<segment id="19" parent="34" relname="span">It has also been observed that such terrorist groups are heavily armed with weapons used exclusively by Russian armed forces,</segment>
+		<segment id="20" parent="19" relname="e-elaboration">namely, the Kalashnikov assault rifle AK-lOO series.</segment>
+		<segment id="21" parent="34" relname="interpretation">Those weapons have also been seen in the hands of Russian troops in Crimea.</segment>
+		<group id="22" type="span" parent="23" relname="sameunit"/>
+		<group id="23" type="multinuc" parent="24" relname="span"/>
+		<group id="24" type="span" parent="36" relname="list"/>
+		<group id="25" type="span" parent="37" relname="background"/>
+		<group id="26" type="span" parent="27" relname="sameunit"/>
+		<group id="27" type="multinuc" parent="28" relname="span"/>
+		<group id="28" type="span" parent="36" relname="list"/>
+		<group id="29" type="span" parent="30" relname="sameunit"/>
+		<group id="30" type="multinuc" parent="31" relname="span"/>
+		<group id="31" type="span" parent="32" relname="span"/>
+		<group id="32" type="span" parent="36" relname="list"/>
+		<group id="33" type="span" parent="38" relname="span"/>
+		<group id="34" type="span" parent="35" relname="span"/>
+		<group id="35" type="span" parent="40" relname="interpretation"/>
+		<group id="36" type="multinuc" parent="37" relname="span"/>
+		<group id="37" type="span" parent="39" relname="span"/>
+		<group id="38" type="span" parent="40" relname="span"/>
+		<group id="39" type="span" parent="38" relname="background"/>
+		<group id="40" type="span" />
+	</body>
+</rst>

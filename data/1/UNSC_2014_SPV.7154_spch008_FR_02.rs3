@@ -1,0 +1,63 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="14" relname="span">It is against that backdrop that France commends the level-headedness of Ukrainian officials who,</segment>
+		<segment id="2" parent="1" relname="e-elaboration">against that destabilizing torrent of events,</segment>
+		<segment id="3" parent="15" relname="sameunit">seek to resolve the crisis through dialogue.</segment>
+		<segment id="4" parent="5" relname="circumstance">That is the spirit in which Prime Minister Yatsenyuk visited eastern Ukraine</segment>
+		<segment id="5" parent="18" relname="span">with specific proposals in response to the real questions of people overwhelmed by propaganda who are disoriented and being exploited by radical groups.</segment>
+		<segment id="6" parent="20" relname="span">France has always been clear on the issue of the status oflanguages and regions.</segment>
+		<segment id="7" parent="16" relname="conjunction">We encourage the authorities in Kyiv to continue their efforts for cooler heads to prevail,</segment>
+		<segment id="8" parent="16" relname="conjunction">enter into a constructive dialogue</segment>
+		<segment id="9" parent="16" relname="conjunction">and reassure people about their place in Ukraine.</segment>
+		<segment id="10" parent="22" relname="list">The future of Ukraine should not, and cannot, be up to anyone else but the Ukrainians themselves.</segment>
+		<segment id="11" parent="22" relname="list">We should support the Ukrainian authorities in organizing elections, under the best of conditions, that ensure that everyone is represented.</segment>
+		<segment id="12" parent="13" relname="attribution">Our message has always been clear</segment>
+		<segment id="13" parent="17" relname="span">that the presidential election scheduled for 25 May must be free and transparent and guaranteed by the presence of international observers.</segment>
+		<group id="14" type="span" parent="15" relname="sameunit"/>
+		<group id="15" type="multinuc" parent="18" relname="background"/>
+		<group id="16" type="multinuc" parent="6" relname="elaboration"/>
+		<group id="17" type="span" parent="22" relname="list"/>
+		<group id="18" type="span" parent="19" relname="span"/>
+		<group id="19" type="span" parent="20" relname="background"/>
+		<group id="20" type="span" parent="21" relname="span"/>
+		<group id="21" type="span" parent="23" relname="background"/>
+		<group id="22" type="multinuc" parent="23" relname="span"/>
+		<group id="23" type="span" parent="24" relname="span"/>
+		<group id="24" type="span" />
+	</body>
+</rst>

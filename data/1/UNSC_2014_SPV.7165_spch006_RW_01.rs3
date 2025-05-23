@@ -1,0 +1,92 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="25" relname="conjunction">We are witnessing a situation that is deteriorating every day</segment>
+		<segment id="2" parent="25" relname="conjunction">and leading slowly to an open war that might involve countries of the region and beyond.</segment>
+		<segment id="3" parent="27" relname="conjunction">Indeed, the developments of the last few weeks are alarming</segment>
+		<segment id="4" parent="27" relname="conjunction">and have immensely undermined the diplomatic efforts to defuse the situation.</segment>
+		<segment id="5" parent="32" relname="conjunction">We condemn in the strongest terms the attempt made to assassinate Hennadiy Kernes, the Mayor of Kharkiv, Ukraine's second-largest city,</segment>
+		<segment id="6" parent="29" relname="span">as well as the illegal detention of the military monitors from the Organization for Security and Cooperation in Europe (OSCE) and their Ukrainian staff,</segment>
+		<segment id="7" parent="6" relname="e-elaboration">which is a serious violation of the current agreement,</segment>
+		<segment id="8" parent="30" relname="conjunction">and we demand their immediate release.</segment>
+		<segment id="9" parent="10" relname="concession">While we welcome the joint de-escalation measures agreed on in Geneva on 17 April and involving the main stakeholders as a step towards a tangible solution to the crisis,</segment>
+		<segment id="10" parent="37" relname="span">we are concerned about the fact that many of those measures have not been implemented.</segment>
+		<segment id="11" parent="38" relname="conjunction">We urge all parties to implement their parts of the agreement,</segment>
+		<segment id="12" parent="38" relname="conjunction">and especially to disarm all military groups</segment>
+		<segment id="13" parent="38" relname="conjunction">and restore all seized buildings.</segment>
+		<segment id="14" parent="46" relname="motivation">The OSCE monitors must be allowed to play a role and to fulfil their mandate, as stipulated in the joint declaration.</segment>
+		<segment id="15" parent="54" relname="preparation">In the meantime, Rwanda reiterates its call for respect for Ukraine's independence, sovereignty and territorial integrity.</segment>
+		<segment id="16" parent="17" relname="concession">We believe in the right to peaceful demonstration,</segment>
+		<segment id="17" parent="40" relname="span">but we firmly condemn the use of violence, the seizure of public buildings and the installation of illegal checkpoints by armed protesters.</segment>
+		<segment id="18" parent="41" relname="span">We therefore believe that Ukraine, like any other country, has a right to restore public order,</segment>
+		<segment id="19" parent="18" relname="condition">provided that right is exercised in a proportionate manner.</segment>
+		<segment id="20" parent="21" relname="antithesis">Nonetheless, the crisis in eastern Ukraine is not merely a matter of public order</segment>
+		<segment id="21" parent="43" relname="span">but a political issue that must be resolved through genuine dialogue with all Ukrainian parties, with a view to ensuring sustainable peace and equal rights for all, including the Russian-speaking minority.</segment>
+		<segment id="22" parent="44" relname="concession">To conclude, we reiterate our strong belief that while public meetings of the Council are important for its members to continue monitoring this crisis,</segment>
+		<segment id="23" parent="44" relname="span">the only way to solve the crisis in Ukraine is through the exercise of political will and the influence of all the countries and regional organizations involved,</segment>
+		<segment id="24" parent="23" relname="purpose">in order to ensure a political and diplomatic solution to the conflict.</segment>
+		<group id="25" type="multinuc" parent="26" relname="span"/>
+		<group id="26" type="span" parent="33" relname="list"/>
+		<group id="27" type="multinuc" parent="28" relname="span"/>
+		<group id="28" type="span" parent="33" relname="list"/>
+		<group id="29" type="span" parent="30" relname="conjunction"/>
+		<group id="30" type="multinuc" parent="31" relname="span"/>
+		<group id="31" type="span" parent="32" relname="conjunction"/>
+		<group id="32" type="multinuc" parent="35" relname="span"/>
+		<group id="33" type="multinuc" parent="34" relname="span"/>
+		<group id="34" type="span" parent="35" relname="background"/>
+		<group id="35" type="span" parent="36" relname="span"/>
+		<group id="36" type="span" parent="49" relname="list"/>
+		<group id="37" type="span" parent="39" relname="reason"/>
+		<group id="38" type="multinuc" parent="39" relname="span"/>
+		<group id="39" type="span" parent="46" relname="span"/>
+		<group id="40" type="span" parent="41" relname="reason"/>
+		<group id="41" type="span" parent="42" relname="span"/>
+		<group id="42" type="span" parent="53" relname="span"/>
+		<group id="43" type="span" parent="54" relname="span"/>
+		<group id="44" type="span" parent="45" relname="span"/>
+		<group id="45" type="span" parent="50" relname="summary"/>
+		<group id="46" type="span" parent="47" relname="span"/>
+		<group id="47" type="span" parent="49" relname="list"/>
+		<group id="49" type="multinuc" parent="50" relname="span"/>
+		<group id="50" type="span" parent="56" relname="span"/>
+		<group id="53" type="span" parent="43" relname="concession"/>
+		<group id="54" type="span" parent="55" relname="span"/>
+		<group id="55" type="span" parent="49" relname="list"/>
+		<group id="56" type="span" />
+	</body>
+</rst>

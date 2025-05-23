@@ -1,0 +1,51 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="8" relname="list">I thank you, Madam President, for this opportunity to speak before the Security Council.</segment>
+		<segment id="2" parent="8" relname="list">I thank Council members for understanding the critical situation in Ukraine</segment>
+		<segment id="3" parent="8" relname="list">and for their support.</segment>
+		<segment id="4" parent="10" relname="circumstance">Before getting into the substance of my statement this evening,</segment>
+		<segment id="5" parent="9" relname="background">I would like start by mentioning that today Christians worldwide celebrate a great holiday, the day of the entry of our Lord into Jerusalem, Palm Sunday.</segment>
+		<segment id="6" parent="9" relname="span">Unfortunately, today the celebration is falling under the shadow of aggression and bloodshed in Ukraine.</segment>
+		<segment id="7" parent="6" relname="e-elaboration">On the eve of the holiday, terrorists coordinated by agents of the Russian Federation seized control of State buildings in several cities of the Donetsk region.</segment>
+		<group id="8" type="multinuc" parent="11" relname="preparation"/>
+		<group id="9" type="span" parent="10" relname="span"/>
+		<group id="10" type="span" parent="11" relname="span"/>
+		<group id="11" type="span" parent="12" relname="span"/>
+		<group id="12" type="span" />
+	</body>
+</rst>

@@ -1,0 +1,61 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="19" relname="span">We have just adopted the new 2030 Agenda for Sustainable Development (General Assembly resolution 70/1),</segment>
+		<segment id="2" parent="18" relname="span">which encompasses our collective targets</segment>
+		<segment id="3" parent="13" relname="conjunction">that will not only have a life-changing impact on hundreds of millions of women,</segment>
+		<segment id="4" parent="13" relname="conjunction">but will also help to create a better world that is more equitable.</segment>
+		<segment id="5" parent="16" relname="list">However, its effective implementation will depend on its simplicity and its transformational power to sanction, within its life span,</segment>
+		<segment id="6" parent="16" relname="list">an immense global response to the most pressing issues of women empowerment</segment>
+		<segment id="7" parent="14" relname="span">and,</segment>
+		<segment id="8" parent="7" relname="elaboration">more importantly,</segment>
+		<segment id="9" parent="15" relname="sameunit">the full participation of women in peace and security.</segment>
+		<segment id="10" parent="17" relname="conjunction">Resolution 1325 (2000) is for the benefit of the whole human race,</segment>
+		<segment id="11" parent="17" relname="conjunction">and has been intended to be so since its adoption in October 2000.</segment>
+		<segment id="12" parent="20" relname="span">It should be regarded as a global objective that reflects peace, equality and development. Its effective implementation in good faith should not be half-hearted.</segment>
+		<group id="13" type="multinuc" parent="2" relname="e-elaboration"/>
+		<group id="14" type="span" parent="15" relname="sameunit"/>
+		<group id="15" type="multinuc" parent="16" relname="list"/>
+		<group id="16" type="multinuc" parent="21" relname="span"/>
+		<group id="17" type="multinuc" parent="12" relname="reason"/>
+		<group id="18" type="span" parent="1" relname="e-elaboration"/>
+		<group id="19" type="span" parent="21" relname="antithesis"/>
+		<group id="20" type="span" parent="22" relname="evaluation-S"/>
+		<group id="21" type="span" parent="22" relname="span"/>
+		<group id="22" type="span" />
+	</body>
+</rst>

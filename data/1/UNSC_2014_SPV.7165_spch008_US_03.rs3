@@ -1,0 +1,58 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="19" relname="span">Since 17 April, the Government of Ukraine has acted in good faith and with admirable restraint to fulfil its commitments.</segment>
+		<segment id="2" parent="15" relname="list">The Kyiv city hall and its surrounding area are now clear of all Maidan barricades and protestors.</segment>
+		<segment id="3" parent="13" relname="span">Over the Easter holiday, Ukraine voluntarily suspended its counter-terrorism initiative,</segment>
+		<segment id="4" parent="3" relname="elaboration">choosing to de-escalate despite its fundamental right to provide security on its own territory and for its own people.</segment>
+		<segment id="5" parent="14" relname="conjunction">Unlike the separatists, Ukraine has cooperated fully with the OSCE special monitoring mission</segment>
+		<segment id="6" parent="14" relname="conjunction">and allowed its observers to operate in regions about which Moscow had voiced concerns regarding the treatment of ethnic Russians.</segment>
+		<segment id="7" parent="17" relname="sameunit">In addition,</segment>
+		<segment id="8" parent="9" relname="attribution">Prime Minister Yatsenyuk has publicly committed</segment>
+		<segment id="9" parent="16" relname="span">his Government to undertake far-reaching constitutional reforms that will strengthen the power of the regions.</segment>
+		<segment id="10" parent="18" relname="span">He has appealed personally to Russian-speaking Ukrainians,</segment>
+		<segment id="11" parent="10" relname="elaboration">pledging to support special status for the Russian language and to protect those who use it.</segment>
+		<segment id="12" parent="15" relname="list">He announced legislation to grant amnesty to those who surrender arms.</segment>
+		<group id="13" type="span" parent="15" relname="list"/>
+		<group id="14" type="multinuc" parent="15" relname="list"/>
+		<group id="15" type="multinuc" parent="1" relname="elaboration"/>
+		<group id="16" type="span" parent="17" relname="sameunit"/>
+		<group id="17" type="multinuc" parent="15" relname="list"/>
+		<group id="18" type="span" parent="15" relname="list"/>
+		<group id="19" type="span" />
+	</body>
+</rst>

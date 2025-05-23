@@ -1,0 +1,69 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="16" relname="concession">Although it is not today's topic,</segment>
+		<segment id="2" parent="3" relname="circumstance">I should like to say that, while there had been encouraging indications that the crisis in Ukraine was entering a phase of waning tension,</segment>
+		<segment id="3" parent="16" relname="span">fears that violent confrontation would continue have not dissipated.</segment>
+		<segment id="4" parent="19" relname="conjunction">But the topic today does involve calling once again for the armed groups to cease their violence</segment>
+		<segment id="5" parent="18" relname="span">and demanding that they halt unilateral actions and their violations and trampling of human rights,</segment>
+		<segment id="6" parent="5" relname="e-elaboration">which do nothing but deepen the crisis and worsen the situation, especially for the civilian population and for the innocent.</segment>
+		<segment id="7" parent="20" relname="span">We reiterate the need to safeguard due respect for Ukraine's conduct of its internal affairs without interference</segment>
+		<segment id="8" parent="7" relname="e-elaboration">- whether military, political or economic 4 in matters under its jurisdiction.</segment>
+		<segment id="9" parent="29" relname="list">Argentina seeks to promote full respect by everyone for the principles of international law and human rights law as enshrined in the Charter of the United Nations.</segment>
+		<segment id="10" parent="11" relname="reason">These are sad and difficult times.</segment>
+		<segment id="11" parent="21" relname="span">Argentina therefore calls for prudence.</segment>
+		<segment id="12" parent="22" relname="list">We will not join in using the language of geopolitical disputes.</segment>
+		<segment id="13" parent="22" relname="list">We will not join in a pointless blame game.</segment>
+		<segment id="14" parent="30" relname="span">This is a time for sorrow, reflection and an urgent search for the truth behind the incident to determine those responsible.</segment>
+		<segment id="15" parent="30" relname="evaluation-N">May the victims rest in peace.</segment>
+		<group id="16" type="span" parent="17" relname="span"/>
+		<group id="17" type="span" parent="25" relname="background"/>
+		<group id="18" type="span" parent="19" relname="conjunction"/>
+		<group id="19" type="multinuc" parent="25" relname="span"/>
+		<group id="20" type="span" parent="29" relname="list"/>
+		<group id="21" type="span" parent="31" relname="evaluation-S"/>
+		<group id="22" type="multinuc" parent="14" relname="antithesis"/>
+		<group id="25" type="span" parent="26" relname="span"/>
+		<group id="26" type="span" parent="34" relname="background"/>
+		<group id="29" type="multinuc" parent="33" relname="span"/>
+		<group id="30" type="span" parent="31" relname="span"/>
+		<group id="31" type="span" parent="32" relname="span"/>
+		<group id="32" type="span" parent="34" relname="span"/>
+		<group id="33" type="span" parent="32" relname="evaluation-S"/>
+		<group id="34" type="span" />
+	</body>
+</rst>

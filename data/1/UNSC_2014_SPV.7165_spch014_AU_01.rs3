@@ -1,0 +1,76 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="29" relname="span">Ukraine is living up to its Geneva commitments.</segment>
+		<segment id="2" parent="28" relname="list">It has submitted to Parliament a draft law on amnesty for protesters who surrender their weapons.</segment>
+		<segment id="3" parent="28" relname="list">It has initiated a process of constitutional reform aimed at decentralizing power.</segment>
+		<segment id="4" parent="5" relname="attribution">It has committed</segment>
+		<segment id="5" parent="21" relname="span">to holding a broad public debate on possible constitutional changes and sought proposals for constitutional reform.</segment>
+		<segment id="6" parent="28" relname="list">It is working to disarm radical movements.</segment>
+		<segment id="7" parent="8" relname="attribution">The Ukrainian Government has also said</segment>
+		<segment id="8" parent="22" relname="span">that it will guarantee the rights of Russian speakers to use their own language.</segment>
+		<segment id="9" parent="24" relname="attribution">It has strongly condemned</segment>
+		<segment id="10" parent="23" relname="sequence">xenophobia, intolerance and anti-Semitism</segment>
+		<segment id="11" parent="23" relname="sequence">and begun an investigation into the distribution of anti-Semitic leaflets in Donetsk.</segment>
+		<segment id="12" parent="26" relname="conjunction">It has invited all political groups to discuss ways to resolve the crisis in eastern Ukraine</segment>
+		<segment id="13" parent="26" relname="conjunction">and it has supported the Organization for Security and Cooperation in Europe (OSCE) in its work to de-escalate tensions.</segment>
+		<segment id="14" parent="34" relname="preparation">But what has Russian done since 17 April to honour its Geneva commitments?</segment>
+		<segment id="15" parent="34" relname="span">Disappointingly, all evidence at hand points to Russia's continued determination to promote instability and challenge Ukraine's authority over its sovereign territory.</segment>
+		<segment id="16" parent="17" relname="attribution">Russia's claims</segment>
+		<segment id="17" parent="30" relname="span">that it has no agency in or influence over the actions of armed militia groups operating in eastern Ukraine are not credible.</segment>
+		<segment id="18" parent="31" relname="span">The seizure of OSCE observers on 25 April in Sloviansk and their mistreatment and their continued detention is a deplorable and cynical act against impartial international personnel working to bring peace and stability to the region,</segment>
+		<segment id="19" parent="18" relname="e-elaboration">an act clearly intended to impede the ability of all OSCE monitors to work in eastern Ukraine.</segment>
+		<segment id="20" parent="33" relname="evaluation-S">We call for their immediate release.</segment>
+		<group id="21" type="span" parent="28" relname="list"/>
+		<group id="22" type="span" parent="28" relname="list"/>
+		<group id="23" type="multinuc" parent="24" relname="span"/>
+		<group id="24" type="span" parent="25" relname="span"/>
+		<group id="25" type="span" parent="28" relname="list"/>
+		<group id="26" type="multinuc" parent="27" relname="span"/>
+		<group id="27" type="span" parent="28" relname="list"/>
+		<group id="28" type="multinuc" parent="1" relname="evidence"/>
+		<group id="29" type="span" parent="37" relname="contrast"/>
+		<group id="30" type="span" parent="32" relname="list"/>
+		<group id="31" type="span" parent="32" relname="list"/>
+		<group id="32" type="multinuc" parent="33" relname="span"/>
+		<group id="33" type="span" parent="35" relname="span"/>
+		<group id="34" type="span" parent="36" relname="span"/>
+		<group id="35" type="span" parent="15" relname="elaboration"/>
+		<group id="36" type="span" parent="37" relname="contrast"/>
+		<group id="37" type="multinuc" />
+	</body>
+</rst>

@@ -1,0 +1,75 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="24" relname="span">Since yesterday, we have seen the abrupt and simultaneous outbreak of violence in eastern Ukraine:</segment>
+		<segment id="2" parent="1" relname="e-elaboration">nothing about it was spontaneous.</segment>
+		<segment id="3" parent="29" relname="span">France condemns the violence.</segment>
+		<segment id="4" parent="19" relname="span">We call on all parties to exercise restraint and dialogue</segment>
+		<segment id="5" parent="4" relname="purpose">so that a peaceful solution to the crisis quickly emerges.</segment>
+		<segment id="6" parent="19" relname="e-elaboration">Everyone must work towards de-escalation.</segment>
+		<segment id="7" parent="26" relname="span">The scenario we are seeing reminds one of the events that took place in Crimea one month ago:</segment>
+		<segment id="8" parent="25" relname="sequence">simultaneous action by a small but trained group of aggressive activists determined to occupy territory,</segment>
+		<segment id="9" parent="25" relname="sequence">followed by the presence of disciplined, masked men wearing uniforms and armed with weapons of war that are not found in military surplus.</segment>
+		<segment id="10" parent="20" relname="span">Those facts,</segment>
+		<segment id="11" parent="10" relname="e-elaboration">which come to us through the waves of images on the Internet,</segment>
+		<segment id="12" parent="33" relname="span">are the same as the ones that Russia labelled a month ago as spontaneous demonstrations by local self-defence groups.</segment>
+		<segment id="13" parent="27" relname="sequence">No one believed it then,</segment>
+		<segment id="14" parent="27" relname="sequence">and we do not believe it today.</segment>
+		<segment id="15" parent="23" relname="sameunit">One gets the impression that,</segment>
+		<segment id="16" parent="17" relname="enablement">in denying the facts,</segment>
+		<segment id="17" parent="22" relname="span">Russia is unaware ofthe existence of the Internet and that it serves to contradict its denials.</segment>
+		<segment id="18" parent="26" relname="summary">Let us not forget that such protests were a prelude to the annexation of Crimea.</segment>
+		<group id="19" type="span" parent="28" relname="span"/>
+		<group id="20" type="span" parent="21" relname="sameunit"/>
+		<group id="21" type="multinuc" parent="31" relname="e-elaboration"/>
+		<group id="22" type="span" parent="23" relname="sameunit"/>
+		<group id="23" type="multinuc" parent="33" relname="e-elaboration"/>
+		<group id="24" type="span" parent="3" relname="background"/>
+		<group id="25" type="multinuc" parent="31" relname="span"/>
+		<group id="26" type="span" parent="36" relname="span"/>
+		<group id="27" type="multinuc" parent="12" relname="e-elaboration"/>
+		<group id="28" type="span" parent="35" relname="span"/>
+		<group id="29" type="span" parent="30" relname="span"/>
+		<group id="30" type="span" />
+		<group id="31" type="span" parent="32" relname="span"/>
+		<group id="32" type="span" parent="7" relname="e-elaboration"/>
+		<group id="33" type="span" parent="34" relname="span"/>
+		<group id="34" type="span" parent="21" relname="sameunit"/>
+		<group id="35" type="span" parent="29" relname="solutionhood"/>
+		<group id="36" type="span" parent="28" relname="reason"/>
+	</body>
+</rst>

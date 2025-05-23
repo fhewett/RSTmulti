@@ -1,0 +1,88 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="25" relname="conjunction">I, too, would like to thank Assistant Secretary-General for Political Affairs Oscar Fernandez-Taranco for his briefing on the developments in Ukraine and on the involvement of the United Nations.</segment>
+		<segment id="2" parent="25" relname="conjunction">I also welcome the presence of the Permanent Representative of Ukraine at this meeting.</segment>
+		<segment id="3" parent="27" relname="circumstance">Argentina continues to follow the situation with concern, in particular in the east of Ukraine.</segment>
+		<segment id="4" parent="5" relname="evaluation-N">Undoubtedly, the situation has deteriorated, with further tensions and violence,</segment>
+		<segment id="5" parent="27" relname="span">and we cannot remain indifferent to that.</segment>
+		<segment id="6" parent="29" relname="conjunction">We are deeply concerned that the tension and violence may continue and indeed worsen.</segment>
+		<segment id="7" parent="29" relname="conjunction">We are also concerned about the consequences for Ukraine and the region.</segment>
+		<segment id="8" parent="31" relname="span">The delegation of Argentina reiterates that it is essential that we adhere to the principles that we subscribe to as Members of the United Nations.</segment>
+		<segment id="9" parent="8" relname="elaboration">In particular, we must remember our commitment to non-interference in the internal affairs of States, whether militarily, politically or economically.</segment>
+		<segment id="10" parent="31" relname="elaboration">In that respect, we believe that the action of any State or international organization must duly respect Ukraine's handling of its own affairs.</segment>
+		<segment id="11" parent="33" relname="span">As we have expressed on several occasions, the situation will not be resolved through any kind of unilateral action.</segment>
+		<segment id="12" parent="11" relname="elaboration">It is crucial that the use of force be avoided.</segment>
+		<segment id="13" parent="42" relname="circumstance">We join the Secretary-General today in calling on all parties to endeavour to bring calm to the situation.</segment>
+		<segment id="14" parent="34" relname="conjunction">Maximal self-restraint must be shown,</segment>
+		<segment id="15" parent="34" relname="conjunction">and constructive dialogue sought and established on an urgent basis</segment>
+		<segment id="16" parent="35" relname="purpose">in order to de-escalate the situation and address the parties' differences.</segment>
+		<segment id="17" parent="44" relname="summary">In conclusion, Argentina will continue to promote dialogue and a peaceful settlement of the crisis.</segment>
+		<segment id="18" parent="19" relname="purpose">It is essential to step up efforts</segment>
+		<segment id="19" parent="37" relname="span">to create the conditions necessary for urgent dialogue to begin</segment>
+		<segment id="20" parent="38" relname="span">so that solutions can be found to the parties' differences and the interests of all minorities are taken into account.</segment>
+		<segment id="21" parent="38" relname="enablement">The multilateral meeting among the United States, the Russian Federation and the European Union that is planned for Thursday, 17 April will present an opportunity to do so.</segment>
+		<segment id="22" parent="47" relname="list">We hope that those main actors will be able to achieve the agreement necessary.</segment>
+		<segment id="23" parent="47" relname="list">We reiterate that the international community should concentrate its efforts on establishing dialogue.</segment>
+		<segment id="24" parent="47" relname="list">We stress that Ukrainians must have a democratic and peaceful outcome to the situation.</segment>
+		<group id="25" type="multinuc" parent="26" relname="span"/>
+		<group id="26" type="span" parent="49" relname="preparation"/>
+		<group id="27" type="span" parent="28" relname="span"/>
+		<group id="28" type="span" parent="40" relname="span"/>
+		<group id="29" type="multinuc" parent="30" relname="span"/>
+		<group id="30" type="span" parent="28" relname="elaboration"/>
+		<group id="31" type="span" parent="32" relname="span"/>
+		<group id="32" type="span" parent="40" relname="elaboration"/>
+		<group id="33" type="span" parent="42" relname="span"/>
+		<group id="34" type="multinuc" parent="35" relname="span"/>
+		<group id="35" type="span" parent="36" relname="span"/>
+		<group id="36" type="span" parent="43" relname="solutionhood"/>
+		<group id="37" type="span" parent="20" relname="purpose"/>
+		<group id="38" type="span" parent="39" relname="span"/>
+		<group id="39" type="span" parent="45" relname="evaluation-S"/>
+		<group id="40" type="span" parent="41" relname="span"/>
+		<group id="41" type="span" parent="33" relname="background"/>
+		<group id="42" type="span" parent="43" relname="span"/>
+		<group id="43" type="span" parent="44" relname="span"/>
+		<group id="44" type="span" parent="45" relname="span"/>
+		<group id="45" type="span" parent="46" relname="span"/>
+		<group id="46" type="span" parent="49" relname="span"/>
+		<group id="47" type="multinuc" parent="48" relname="span"/>
+		<group id="48" type="span" parent="46" relname="evaluation-S"/>
+		<group id="49" type="span" />
+	</body>
+</rst>

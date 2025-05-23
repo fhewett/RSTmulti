@@ -1,0 +1,62 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="14" relname="span">It is unfortunate that this tragic event comes at a time when national and regional efforts are under way to find a political and diplomatic solution to the Ukrainian crisis.</segment>
+		<segment id="2" parent="13" relname="span">This act undermines valuable initiatives of the trilateral contact group of senior representatives of Ukraine, the Russian Federation and the Organization for Security and Cooperation in Europe,</segment>
+		<segment id="3" parent="2" relname="e-elaboration">who were making all necessary efforts for a resumption of consultations with separatists in eastern Ukraine.</segment>
+		<segment id="4" parent="15" relname="attribution">On Tuesday, the group reconfirmed</segment>
+		<segment id="5" parent="15" relname="span">its support for President Petro Poroshenko's peace plan, as well as its commitment to a sustainable ceasefire,</segment>
+		<segment id="6" parent="5" relname="e-elaboration">as stated in the joint declaration issued in Berlin on 2 July by the Foreign Ministers of Germany, France, the Russian Federation and Ukraine.</segment>
+		<segment id="7" parent="20" relname="span">We note that yesterday's criminal act follows the downing of a Ukrainian fighter jet on Wednesday and that of a military cargo plane on Monday.</segment>
+		<segment id="8" parent="19" relname="span">The frequent use of surface-to-air missiles during the past few months raises the question of access to such weapons,</segment>
+		<segment id="9" parent="18" relname="sameunit">which,</segment>
+		<segment id="10" parent="11" relname="e-elaboration">as we have now seen,</segment>
+		<segment id="11" parent="17" relname="span">are capable of downing a civilian airplane flying at over 30,000 feet.</segment>
+		<segment id="12" parent="23" relname="span">Therefore, the Security Council and the broader international community can no longer afford to turn a blind eye on the matter.</segment>
+		<group id="13" type="span" parent="21" relname="span"/>
+		<group id="14" type="span" parent="22" relname="list"/>
+		<group id="15" type="span" parent="16" relname="span"/>
+		<group id="16" type="span" parent="13" relname="elaboration"/>
+		<group id="17" type="span" parent="18" relname="sameunit"/>
+		<group id="18" type="multinuc" parent="8" relname="e-elaboration"/>
+		<group id="19" type="span" parent="7" relname="elaboration"/>
+		<group id="20" type="span" parent="22" relname="list"/>
+		<group id="21" type="span" parent="1" relname="e-elaboration"/>
+		<group id="22" type="multinuc" parent="12" relname="reason"/>
+		<group id="23" type="span" />
+	</body>
+</rst>

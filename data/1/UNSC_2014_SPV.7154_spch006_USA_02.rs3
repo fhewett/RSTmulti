@@ -1,0 +1,64 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="16" relname="span">We continue efforts to de-escalate the situation in Ukraine and find a diplomatic path forward,</segment>
+		<segment id="2" parent="15" relname="span">which is why Secretary Kerry will participate in the Geneva talks on 17 April,</segment>
+		<segment id="3" parent="17" relname="list">which will include Russian Foreign Minister Lavrov.</segment>
+		<segment id="4" parent="17" relname="list">But ifthose are to be successful, Russia will have to explain why its forces continue to mass on the Ukrainian border - at least 40,000 forces -</segment>
+		<segment id="5" parent="17" relname="list">and it will have to come with constructive ideas on how to de-escalate and resolve the armed attacks on buildings in eastern Ukraine.</segment>
+		<segment id="6" parent="18" relname="list">The United States stands with Ukraine and the fundamental principle that the future of Ukraine must be decided by the Ukrainian people.</segment>
+		<segment id="7" parent="18" relname="list">We also stand with international law and norms and the fundamental principle that borders are not suggestions.</segment>
+		<segment id="8" parent="19" relname="span">On Monday, we will conclude the $1 billion loan guarantee for Ukraine.</segment>
+		<segment id="9" parent="8" relname="purpose">That will benefit all the Ukrainian people, including minorities.</segment>
+		<segment id="10" parent="22" relname="list">Next week, Vice-President Biden will visit Ukraine.</segment>
+		<segment id="11" parent="20" relname="span">We strongly support concluding the agreement between Ukraine and the International Monetary Fund</segment>
+		<segment id="12" parent="11" relname="purpose">so that the international community can bolster Ukraine's economy.</segment>
+		<segment id="13" parent="21" relname="span">And we will support in every way we can Ukraine's elections at the end of May</segment>
+		<segment id="14" parent="13" relname="purpose">so that Ukraine can advance its political transition and look to a peaceful future.</segment>
+		<group id="15" type="span" parent="1" relname="e-elaboration"/>
+		<group id="16" type="span" parent="24" relname="background"/>
+		<group id="17" type="multinuc" parent="2" relname="e-elaboration"/>
+		<group id="18" type="multinuc" parent="23" relname="span"/>
+		<group id="19" type="span" parent="22" relname="list"/>
+		<group id="20" type="span" parent="22" relname="list"/>
+		<group id="21" type="span" parent="22" relname="list"/>
+		<group id="22" type="multinuc" parent="23" relname="evidence"/>
+		<group id="23" type="span" parent="24" relname="span"/>
+		<group id="24" type="span" parent="25" relname="span"/>
+		<group id="25" type="span" />
+	</body>
+</rst>

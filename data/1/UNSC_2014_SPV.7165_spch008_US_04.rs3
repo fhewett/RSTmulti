@@ -1,0 +1,80 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="37" relname="concession">All of that should be cause for optimism and hope.</segment>
+		<segment id="2" parent="20" relname="span">Tragically, what we have seen from Russia since 17 April</segment>
+		<segment id="3" parent="2" relname="evaluation-N">is exactly what we saw from Russia prior to 17 April: more attempts to stir up trouble, more efforts to undermine the Government of Ukraine and statement after statement at odds with the facts.</segment>
+		<segment id="4" parent="35" relname="contrast">What we have not seen is a single positive step by Russia to fulfil its Geneva commitments.</segment>
+		<segment id="5" parent="22" relname="sameunit">Instead,</segment>
+		<segment id="6" parent="7" relname="attribution">Russian officials have refused</segment>
+		<segment id="7" parent="21" relname="span">to publicly call on the separatists to give up their weapons and relinquish their illegal control of Ukrainian Government buildings.</segment>
+		<segment id="8" parent="23" relname="elaboration">In fact, Russia continues to fund, to coordinate and to fuel the heavily armed separatist movement.</segment>
+		<segment id="9" parent="28" relname="span">In addition, just outside of Ukraine's border, Russia has continued to engage in threatening troop movements</segment>
+		<segment id="10" parent="26" relname="antithesis">that are designed not to calm tensions,</segment>
+		<segment id="11" parent="25" relname="conjunction">but to embolden the separatists</segment>
+		<segment id="12" parent="25" relname="conjunction">and to intimidate the Government.</segment>
+		<segment id="13" parent="41" relname="conjunction">In conclusion, I emphasize that the United States remains committed to supporting the principles of the Charter of the United Nations</segment>
+		<segment id="14" parent="41" relname="conjunction">and will continue to uphold the territorial integrity and sovereignty of Ukraine.</segment>
+		<segment id="15" parent="29" relname="list">We continue to seek stability within a peaceful, democratic, inclusive and united Ukraine, especially in advance of the upcoming important elections.</segment>
+		<segment id="16" parent="17" relname="concession">We remain committed to a diplomatic process,</segment>
+		<segment id="17" parent="42" relname="span">but Russia seems committed to destabilization and fantastical justifications for its actions.</segment>
+		<segment id="18" parent="31" relname="span">The truth about what is happening in Ukraine should guide our discussion,</segment>
+		<segment id="19" parent="18" relname="reason">because truth is the only foundation on which an equitable and lasting solution to this crisis can be based.</segment>
+		<group id="20" type="span" parent="35" relname="contrast"/>
+		<group id="21" type="span" parent="22" relname="sameunit"/>
+		<group id="22" type="multinuc" parent="23" relname="span"/>
+		<group id="23" type="span" parent="24" relname="span"/>
+		<group id="24" type="span" parent="34" relname="list"/>
+		<group id="25" type="multinuc" parent="26" relname="span"/>
+		<group id="26" type="span" parent="27" relname="span"/>
+		<group id="27" type="span" parent="9" relname="e-elaboration"/>
+		<group id="28" type="span" parent="34" relname="list"/>
+		<group id="29" type="multinuc" parent="43" relname="span"/>
+		<group id="31" type="span" parent="44" relname="background"/>
+		<group id="34" type="multinuc" parent="36" relname="span"/>
+		<group id="35" type="multinuc" parent="37" relname="span"/>
+		<group id="36" type="span" parent="38" relname="evidence"/>
+		<group id="37" type="span" parent="38" relname="span"/>
+		<group id="38" type="span" parent="39" relname="span"/>
+		<group id="39" type="span" parent="45" relname="result"/>
+		<group id="41" type="multinuc" parent="29" relname="list"/>
+		<group id="42" type="span" parent="44" relname="span"/>
+		<group id="43" type="span" parent="42" relname="concession"/>
+		<group id="44" type="span" parent="45" relname="span"/>
+		<group id="45" type="span" />
+	</body>
+</rst>

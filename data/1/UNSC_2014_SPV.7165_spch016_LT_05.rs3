@@ -1,0 +1,78 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="40" relname="preparation">Now I would like to turn to human rights and the media.</segment>
+		<segment id="2" parent="20" relname="span">The Organization for Security and Cooperation in Europe (OSCE) Representative on the Freedom of the Media, Mr. Dunja Mijatovic', is sounding increasing alarm</segment>
+		<segment id="3" parent="2" relname="e-elaboration">regarding the treatment of journalists and the deterioration of media freedom in eastern Ukraine.</segment>
+		<segment id="4" parent="22" relname="span">In areas under the control of pro-Russian militants, journalists are attacked, detained, harassed and their equipment taken or smashed.</segment>
+		<segment id="5" parent="21" relname="span">There is probably something to hide</segment>
+		<segment id="6" parent="5" relname="condition">if there is such a distaste and dislike of free media in that part of Ukraine.</segment>
+		<segment id="7" parent="24" relname="conjunction">We reiterate our call to end impunity for attacks against journalists.</segment>
+		<segment id="8" parent="27" relname="span">We also call for a thorough investigation of kidnappings, torture and killings,</segment>
+		<segment id="9" parent="8" relname="e-elaboration">committed by whomever,</segment>
+		<segment id="10" parent="26" relname="conjunction">and to insist that the perpetrators of all such acts be brought to justice.</segment>
+		<segment id="11" parent="28" relname="span">We hope that the next report of the United Nations human rights monitoring mission in Ukraine,</segment>
+		<segment id="12" parent="11" relname="e-elaboration">to be issued in mid-May,</segment>
+		<segment id="13" parent="29" relname="sameunit">will address the growing cases of human rights violations, violent deaths, causes for torture, abductions and activist disappearances in eastern Ukraine.</segment>
+		<segment id="14" parent="43" relname="span">We also hope the report will look into the human rights situation in occupied Crimea.</segment>
+		<segment id="15" parent="33" relname="list">As has been reported, the Crimean Tatar leader Mustafa Dzhemilev has been barred from returning home to Crimea.</segment>
+		<segment id="16" parent="31" relname="conjunction">A group of camouflage-clad men stormed the Tatar Assembly offices</segment>
+		<segment id="17" parent="31" relname="conjunction">and tore down the Ukrainian flag there.</segment>
+		<segment id="18" parent="32" relname="span">The director and editor of Crimean Tatar programmes on Crimean State television have been forced out by local authorities</segment>
+		<segment id="19" parent="18" relname="cause">because they had spoken against increasing censorship.</segment>
+		<group id="20" type="span" parent="23" relname="span"/>
+		<group id="21" type="span" parent="4" relname="interpretation"/>
+		<group id="22" type="span" parent="20" relname="cause"/>
+		<group id="23" type="span" parent="39" relname="background"/>
+		<group id="24" type="multinuc" parent="39" relname="span"/>
+		<group id="25" type="span" parent="24" relname="conjunction"/>
+		<group id="26" type="multinuc" parent="25" relname="span"/>
+		<group id="27" type="span" parent="26" relname="conjunction"/>
+		<group id="28" type="span" parent="29" relname="sameunit"/>
+		<group id="29" type="multinuc" parent="30" relname="list"/>
+		<group id="30" type="multinuc" parent="42" relname="span"/>
+		<group id="31" type="multinuc" parent="33" relname="list"/>
+		<group id="32" type="span" parent="33" relname="list"/>
+		<group id="33" type="multinuc" parent="14" relname="reason"/>
+		<group id="39" type="span" parent="40" relname="span"/>
+		<group id="40" type="span" parent="41" relname="span"/>
+		<group id="41" type="span" parent="44" relname="joint"/>
+		<group id="42" type="span" parent="44" relname="joint"/>
+		<group id="43" type="span" parent="30" relname="list"/>
+		<group id="44" type="multinuc" />
+	</body>
+</rst>

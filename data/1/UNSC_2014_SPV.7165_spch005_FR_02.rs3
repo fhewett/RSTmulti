@@ -1,0 +1,66 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="14" relname="span">We are at a turning point.</segment>
+		<segment id="2" parent="1" relname="elaboration">With every moment that passes, the risk of anarchy and bloody incidents grows.</segment>
+		<segment id="3" parent="15" relname="span">That is why we call on the Russian authorities to choose the path of de-escalation through the immediate demonstration of respect for the commitments made in the Geneva declaration.</segment>
+		<segment id="4" parent="17" relname="circumstance">Yesterday, together with our European Union partners and the United States, we adopted new targeted sanctions.</segment>
+		<segment id="5" parent="6" relname="condition">If the situation worsens,</segment>
+		<segment id="6" parent="16" relname="span">we will be forced to ratchet up the sanctions once again.</segment>
+		<segment id="7" parent="16" relname="evaluation-S">That is not what we would prefer.</segment>
+		<segment id="8" parent="19" relname="span">Our goal is to ensure the holding on 25 May of free, inclusive and transparent presidential elections,</segment>
+		<segment id="9" parent="8" relname="e-elaboration">whose good conduct will be guaranteed by the presence of international observers.</segment>
+		<segment id="10" parent="19" relname="reason">The possibility that the actions of some violent groups could threaten the holding of this democratic exercise is unacceptable.</segment>
+		<segment id="11" parent="27" relname="background">We also support constitutional reform that would ensure respect for minorities and some decentralization.</segment>
+		<segment id="12" parent="27" relname="span">It is up to all Ukrainians to decide their future.</segment>
+		<segment id="13" parent="12" relname="condition">Then history and geography can bring about an inevitable and desirable reconciliation between a democratic, peaceful and independent Ukraine and a Russian Federation that will renounce its dangerous nationalist illusions.</segment>
+		<group id="14" type="span" parent="3" relname="cause"/>
+		<group id="15" type="span" parent="18" relname="background"/>
+		<group id="16" type="span" parent="17" relname="span"/>
+		<group id="17" type="span" parent="18" relname="span"/>
+		<group id="18" type="span" parent="21" relname="span"/>
+		<group id="19" type="span" parent="22" relname="span"/>
+		<group id="20" type="span" parent="29" relname="span"/>
+		<group id="21" type="span" parent="20" relname="reason-N"/>
+		<group id="22" type="span" parent="20" relname="span"/>
+		<group id="23" type="span" parent="30" relname="joint"/>
+		<group id="27" type="span" parent="28" relname="span"/>
+		<group id="28" type="span" parent="23" relname="span"/>
+		<group id="29" type="span" parent="30" relname="joint"/>
+		<group id="30" type="multinuc" />
+	</body>
+</rst>

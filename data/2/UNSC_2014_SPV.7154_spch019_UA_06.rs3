@@ -1,0 +1,74 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="19" relname="antithesis">Russia often positions itself as a prominent fighter against international terrorism,</segment>
+		<segment id="2" parent="3" relname="elaboration">but by sending its special agents to Ukraine to effect diversions and sabotage,</segment>
+		<segment id="3" parent="19" relname="span">it is actually sponsoring terrorism.</segment>
+		<segment id="4" parent="27" relname="span">Russia's statements and position are in fact supporting the terrorists in Ukraine who have seized administrative buildings, taken over the military arsenals of the Ukrainian secret services and police in several cities and opened fire on Ukrainian police.</segment>
+		<segment id="5" parent="21" relname="span">Today, official Russian TV channels have widely broadcast interviews with the three individuals</segment>
+		<segment id="6" parent="5" relname="e-elaboration">- former President Yanukovych, former Prosecutor General Pshonka and former Minister of the Interior Zakharchenko -</segment>
+		<segment id="7" parent="24" relname="span">who are suspected mass murderers in Ukraine.</segment>
+		<segment id="8" parent="7" relname="interpretation">They are wanted internationally.</segment>
+		<segment id="9" parent="10" relname="antithesis">Ukraine has repeatedly asked its Russian partners to extradite those suspects and provide the necessary assistance for their investigation.</segment>
+		<segment id="10" parent="25" relname="span">Unfortunately, the Russian Federation has refused to do that.</segment>
+		<segment id="11" parent="29" relname="evaluation-N">Ukraine is being subjected to a large-scale terrorist operation orchestrated by the Russian Federation in subregions of the eastern part of the country.</segment>
+		<segment id="12" parent="13" relname="concession">That constitutes a serious threat not only to the security of the people of Ukraine</segment>
+		<segment id="13" parent="29" relname="span">but to international peace and stability as a whole.</segment>
+		<segment id="14" parent="31" relname="span">We consider it to be the Security Council's duty to find a proper and peaceful solution to this crisis.</segment>
+		<segment id="15" parent="33" relname="span">We once again call on our Russian partners to put an immediate halt to the actions aimed at undermining the sovereignty and territorial integrity of Ukraine.</segment>
+		<segment id="16" parent="34" relname="span">We demand that they leave us in peace.</segment>
+		<segment id="17" parent="18" relname="attribution">(spoke in French) As Ambassador Araud said,</segment>
+		<segment id="18" parent="32" relname="span">this is truly a final cry of warning.</segment>
+		<group id="19" type="span" parent="20" relname="span"/>
+		<group id="20" type="span" parent="4" relname="background"/>
+		<group id="21" type="span" parent="22" relname="sameunit"/>
+		<group id="22" type="multinuc" parent="23" relname="span"/>
+		<group id="23" type="span" parent="26" relname="span"/>
+		<group id="24" type="span" parent="22" relname="sameunit"/>
+		<group id="25" type="span" parent="23" relname="interpretation"/>
+		<group id="26" type="span" parent="27" relname="evidence"/>
+		<group id="27" type="span" parent="28" relname="span"/>
+		<group id="28" type="span" parent="35" relname="antithesis"/>
+		<group id="29" type="span" parent="30" relname="span"/>
+		<group id="30" type="span" parent="14" relname="evaluation-N"/>
+		<group id="31" type="span" parent="15" relname="motivation"/>
+		<group id="32" type="span" parent="34" relname="evaluation-S"/>
+		<group id="33" type="span" parent="16" relname="evaluation-N"/>
+		<group id="34" type="span" parent="35" relname="span"/>
+		<group id="35" type="span" />
+	</body>
+</rst>

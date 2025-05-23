@@ -1,0 +1,65 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="25" relname="preparation">We would like to thank Assistant Secretary-General Oscar Fernandez-Taranco for his briefing and welcome the convening of this meeting at this critical time for Ukraine and the region.</segment>
+		<segment id="2" parent="19" relname="background">We face a sensitive development in the crisis in Ukraine.</segment>
+		<segment id="3" parent="14" relname="conjunction">Chile regrets the outbreaks of violence seen in the eastern regions, specifically in Donetsk, Luhansk and Kharkiv,</segment>
+		<segment id="4" parent="14" relname="conjunction">and expresses its deep concern over the serious consequences of the escalation of the crisis owing to the actions of separatist groups.</segment>
+		<segment id="5" parent="20" relname="solutionhood">It is critical that the parties exercise the maximum restraint in order to contain the crisis.</segment>
+		<segment id="6" parent="15" relname="list">Our country once again reiterates the need to respect the sovereignty, independence and territorial integrity of Ukraine.</segment>
+		<segment id="7" parent="15" relname="list">We also reaffirm the obligation incumbent on Members of the United Nations to refrain from resorting to the threat of or use of force against the territorial integrity and political independence of any State.</segment>
+		<segment id="8" parent="21" relname="span">It is urgent that all parties involved refrain from undertaking actions that are contrary to the provisions of the Charter of the United Nations and the international agreements and treaties to which Ukraine is a party.</segment>
+		<segment id="9" parent="17" relname="span">We once again call on the parties to seek a peaceful solution to the crisis through direct political dialogue,</segment>
+		<segment id="10" parent="16" relname="span">to refrain from taking unilateral measures and to support international mediation initiatives,</segment>
+		<segment id="11" parent="10" relname="e-elaboration">in accordance with General Assembly resolution 68/262.</segment>
+		<segment id="12" parent="18" relname="span">That process must be inclusive and must ensure the rule of law, human rights, fundamental freedoms and full respect for the rights of minorities.</segment>
+		<segment id="13" parent="12" relname="e-elaboration">In that context, the role of the Security Council, the Secretary-General, his Special Envoy and regional organizations continues to be fundamental.</segment>
+		<group id="14" type="multinuc" parent="19" relname="span"/>
+		<group id="15" type="multinuc" parent="24" relname="list"/>
+		<group id="16" type="span" parent="9" relname="purpose"/>
+		<group id="17" type="span" parent="8" relname="restatement"/>
+		<group id="18" type="span" parent="21" relname="elaboration"/>
+		<group id="19" type="span" parent="20" relname="span"/>
+		<group id="20" type="span" parent="23" relname="span"/>
+		<group id="21" type="span" parent="22" relname="span"/>
+		<group id="22" type="span" parent="25" relname="span"/>
+		<group id="23" type="span" parent="24" relname="list"/>
+		<group id="24" type="multinuc" parent="22" relname="background"/>
+		<group id="25" type="span" parent="26" relname="span"/>
+		<group id="26" type="span" />
+	</body>
+</rst>

@@ -1,0 +1,66 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-N" type="rst"/>
+			<rel name="evaluation-S" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason-N" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sameunit" type="multinuc"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="15" relname="span">A new level of banditry by the separatists in eastern Ukraine was reached on 25 April,</segment>
+		<segment id="2" parent="1" relname="circumstance">when they kidnapped a group of OSCE representatives.</segment>
+		<segment id="3" parent="18" relname="sameunit">Notably,</segment>
+		<segment id="4" parent="16" relname="circumstance">when asked to release the hostages,</segment>
+		<segment id="5" parent="6" relname="attribution">the separatists were quoted as saying</segment>
+		<segment id="6" parent="16" relname="span">that they needed to speak to the competent authorities in the Russian Federation.</segment>
+		<segment id="7" parent="21" relname="span">My delegation strongly condemns the kidnapping of unarmed OSCE military verification mission observers and Ukrainian security personnel.</segment>
+		<segment id="8" parent="20" relname="span">Such acts, as well as the public parading of the hostages, speak loudly to the true character and intentions of the separatists,</segment>
+		<segment id="9" parent="19" relname="span">who seek to disrupt international observation</segment>
+		<segment id="10" parent="9" relname="purpose">so that they can continue attacking Ukraine out of sight of the international community.</segment>
+		<segment id="11" parent="22" relname="span">The parties with influence on the militant separatists,</segment>
+		<segment id="12" parent="11" relname="e-elaboration">first and foremost Russia,</segment>
+		<segment id="13" parent="23" relname="conjunction">must take all necessary steps to bring about the immediate release of all hostages, without preconditions.</segment>
+		<segment id="14" parent="26" relname="list">The international monitoring and mediation efforts of the United Nations, OSCE and other regional bodies must be fully supported, guaranteed safety and security, and allowed full freedom of access on all of Ukraine's territory.</segment>
+		<group id="15" type="span" parent="24" relname="span"/>
+		<group id="16" type="span" parent="17" relname="span"/>
+		<group id="17" type="span" parent="18" relname="sameunit"/>
+		<group id="18" type="multinuc" parent="15" relname="elaboration"/>
+		<group id="19" type="span" parent="8" relname="e-elaboration"/>
+		<group id="20" type="span" parent="7" relname="elaboration"/>
+		<group id="21" type="span" parent="25" relname="span"/>
+		<group id="22" type="span" parent="23" relname="conjunction"/>
+		<group id="23" type="multinuc" parent="26" relname="list"/>
+		<group id="24" type="span" parent="21" relname="cause"/>
+		<group id="25" type="span" parent="27" relname="joint"/>
+		<group id="26" type="multinuc" parent="27" relname="joint"/>
+		<group id="27" type="multinuc" />
+	</body>
+</rst>
