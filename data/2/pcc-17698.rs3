@@ -1,0 +1,78 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="disjunction" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-n" type="rst"/>
+			<rel name="evaluation-s" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="means" type="rst"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement-mn" type="multinuc"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+			<rel name="unconditional" type="rst"/>
+			<rel name="unless" type="rst"/>
+			<rel name="unstated-relation" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="3" parent="32" relname="sequence">Amerikaner würden sich bei dieser Frage wahrscheinlich auf den Boden werfen</segment>
+		<segment id="4" parent="32" relname="sequence">und lauthals lachen:</segment>
+		<segment id="5" parent="21" relname="span">Rauchen in einer Stadthalle,</segment>
+		<segment id="6" parent="20" relname="conjunction">in der die meiste Zeit über Kinder und Jugendliche Sport treiben</segment>
+		<segment id="7" parent="20" relname="conjunction">und dabei kräftig atmen?</segment>
+		<segment id="8" parent="23" relname="span">Schon der Gedanke daran wäre undenkbar in einem Land, in dem der Nikotinkonsum in öffentlichen Gebäuden, auf Flughäfen und auch in Restaurants (sogar an Tischen im Freien mitten in Manhattan! ) unter Strafe steht.</segment>
+		<segment id="9" parent="35" relname="preparation">Und Deutschland?</segment>
+		<segment id="10" parent="25" relname="conjunction">Ungehemmtes Qualmen und Paffen überall,</segment>
+		<segment id="11" parent="24" relname="span">und oft schlägt einem Nichtraucher sogar noch Aggression entgegen,</segment>
+		<segment id="12" parent="11" relname="elaboration">weist er freundlich darauf hin, dass es unerträglich müffelt...</segment>
+		<segment id="13" parent="26" relname="span">Insofern ist die Beharrlichkeit zu loben, mit der die Falkenseer Stadtverwaltung einer Berliner Musikgruppe die Konzerterlaubnis für die Stadthalle - quasi eine der letzten rauchfreien Bastionen - eben nicht erteilt.</segment>
+		<segment id="14" parent="37" relname="preparation">Auch wenn es übertrieben klingen mag:</segment>
+		<segment id="15" parent="36" relname="condition">Wer ernsthaft über Jugendschutz redet (Stichwort Suchtgefahren),</segment>
+		<segment id="16" parent="36" relname="span">der sollte kleine Leute nicht an einen Ort zum Bodenturnen schicken,</segment>
+		<segment id="17" parent="16" relname="e-elaboration">in dem es riecht wie in einer Kneipe am Morgen nach der Weihnachtsfeier.</segment>
+		<segment id="18" parent="19" relname="cause">Dieses Prinzip ist den Verantwortlichen zu Recht so teuer,</segment>
+		<segment id="19" parent="39" relname="span">dass sie es sich für ein paar Mark Hallenmiete nicht abkaufen lassen.</segment>
+		<group id="20" type="multinuc" parent="5" relname="e-elaboration"/>
+		<group id="21" type="span" parent="22" relname="span"/>
+		<group id="22" type="span" parent="8" relname="background"/>
+		<group id="23" type="span" parent="30" relname="background"/>
+		<group id="24" type="span" parent="25" relname="conjunction"/>
+		<group id="25" type="multinuc" parent="35" relname="span"/>
+		<group id="26" type="span" parent="29" relname="span"/>
+		<group id="29" type="span" parent="30" relname="span"/>
+		<group id="30" type="span" parent="31" relname="span"/>
+		<group id="31" type="span" />
+		<group id="32" type="multinuc" parent="33" relname="span"/>
+		<group id="33" type="span" parent="21" relname="preparation"/>
+		<group id="34" type="span" parent="13" relname="reason"/>
+		<group id="35" type="span" parent="34" relname="span"/>
+		<group id="36" type="span" parent="37" relname="span"/>
+		<group id="37" type="span" parent="38" relname="span"/>
+		<group id="38" type="span" parent="39" relname="justify"/>
+		<group id="39" type="span" parent="40" relname="span"/>
+		<group id="40" type="span" parent="29" relname="reason"/>
+	</body>
+</rst>

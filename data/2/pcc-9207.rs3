@@ -1,0 +1,65 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="conjunction" type="multinuc"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="disjunction" type="multinuc"/>
+			<rel name="e-elaboration" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation-n" type="rst"/>
+			<rel name="evaluation-s" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="interpretation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="list" type="multinuc"/>
+			<rel name="means" type="rst"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="otherwise" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="reason" type="rst"/>
+			<rel name="restatement-mn" type="multinuc"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+			<rel name="summary" type="rst"/>
+			<rel name="unconditional" type="rst"/>
+			<rel name="unless" type="rst"/>
+			<rel name="unstated-relation" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="3" parent="15" relname="span">Heute verleiht das brandenburgische Umweltministerium den mit 10 000 Mark dotierten Erwin-Strittmatter-Preis an die Schriftstellerin Susanne Paulsen.</segment>
+		<segment id="4" parent="3" relname="e-elaboration">Mit der Auszeichnung sollen "Literatur und Autoren geehrt werden, die sich in Umweltbelange einmischen".</segment>
+		<segment id="5" parent="15" relname="evaluation-s">Das klingt fast so, als sei Gut-Gemeintes preisverdächtig.</segment>
+		<segment id="6" parent="16" relname="evaluation-s">Eine solche Fördermaßnahme für Öko-Literatur verkennt, dass es immer nur gelungene und missratene Texte gibt.</segment>
+		<segment id="7" parent="18" relname="span">Das Verhältnis zur Natur ist für viele Dichter ein großes Thema.</segment>
+		<segment id="8" parent="7" relname="elaboration">Den Literaturpreis haben bisher Schöngeister wie Hanns Cibulka und Wulf Kirsten, Volker Braun und Thomas Rosenlöcher bekommen.</segment>
+		<segment id="9" parent="10" relname="condition">Wer aus ihren Gedichten ein umweltpolitisches Engagement ableitet,</segment>
+		<segment id="10" parent="25" relname="span">instrumentalisiert die Literatur ideologisch.</segment>
+		<segment id="11" parent="12" relname="evaluation-n">Die Zeiten, da die Literatur Aufklärungs- und Bekenntnisarbeit mitleisten musste, sind zum Glück vorbei.</segment>
+		<segment id="12" parent="20" relname="span">Deshalb ist es auch gut, dass das Umweltministerium in diesem Jahr in engerem Sinne auf fachliche Leistungen setzt.</segment>
+		<segment id="13" parent="21" relname="span">Susanne Paulsen bekommt den Preis für ein erzählendes Sachbuch,</segment>
+		<segment id="14" parent="13" relname="elaboration">das dem Leser die rätselhafte Welt der Pflanzen näherbringt.</segment>
+		<group id="15" type="span" parent="16" relname="span"/>
+		<group id="16" type="span" parent="17" relname="span"/>
+		<group id="17" type="span" parent="23" relname="background"/>
+		<group id="18" type="span" parent="19" relname="span"/>
+		<group id="19" type="span" parent="22" relname="concession"/>
+		<group id="20" type="span" parent="22" relname="span"/>
+		<group id="21" type="span" parent="20" relname="elaboration"/>
+		<group id="22" type="span" parent="23" relname="span"/>
+		<group id="23" type="span" parent="24" relname="span"/>
+		<group id="24" type="span" />
+		<group id="25" type="span" parent="18" relname="elaboration"/>
+	</body>
+</rst>
