@@ -1,0 +1,12 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,2,result,⟵,2,5,S,1,1,N,,,,,,,,,,,,No matching,,,,,,
+2,,,,,,,,,,,,1,cause,⟶,1,1,S,2,2,N,,No matching,,,,,,
+3,,3-5,elaboration,⟵,3,5,S,2,2,N,,,,,,,,,,,,No matching,,,,,,
+4,,,,,,,,,,,,3-4,concession,⟶,3,4,S,5,5,N,,No matching,,,,,,
+5,,6,e-elaboration,⟵,6,8,S,1,5,N,,6|7,sequence,⟷,6,6,N,7,7,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+6,,7,e-elaboration,⟵,7,8,S,6,6,N,,,,,,,,,,,,No matching,,,,,,
+7,,,,,,,,,,,,6-7,e-elaboration,⟵,6,7,S,1,5,N,,No matching,,,,,,
+8,,8,result,⟵,8,8,S,7,7,N,,1-5|8|9,sequence,⟷,1,7,N,8,9,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+9,,9,elaboration,⟵,9,9,S,1,8,N,,8|9,sequence,⟷,8,8,N,9,9,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+10,,3|4|5,list,⟷,3,3,N,4,5,N,,3|4,conjunction,⟷,3,3,N,4,4,N,,Partially identical CS,✓,✗,✓,✗,NC,≠R
+11,,4|5,list,⟷,4,4,N,5,5,N,,5,elaboration,⟵,3,5,S,1,2,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"

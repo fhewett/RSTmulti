@@ -1,0 +1,20 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,concession,⟶,1,1,S,2,4,N,,1|2-4,contrast,⟷,1,1,N,2,12,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+2,,1-4,result,⟶,1,12,S,13,19,N,,1-12|13-17,joint,⟷,1,12,N,13,19,N,,C1=C2 and A1=A2,✗,✗,✗,✓,A,"N/N-N/S, ≠R"
+3,,3,evaluation-n,⟵,3,3,S,2,2,N,,2,attribution,⟶,2,2,S,3,3,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/S, ≠R"
+4,,5-12,evidence,⟵,5,12,S,1,4,N,,5-12,evidence,⟵,5,12,S,2,4,N,,Completely identical CS,✓,✓,✓,✗,NRC,
+5,,6,attribution,⟶,6,6,S,7,7,N,,6,attribution,⟶,6,6,S,7,7,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+6,,8,elaboration,⟵,8,8,S,5,7,N,,5-7|8|9,list,⟷,5,7,N,8,12,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+7,,10,antithesis,⟶,10,10,S,11,12,N,,10,antithesis,⟶,10,10,S,11,11,N,,Completely identical CS,✓,✓,✓,✗,NRC,
+8,,11-12,e-elaboration,⟵,10,12,S,9,9,N,,10-12,e-elaboration,⟵,10,12,S,9,9,N,,C1=C2 and A1=A2,✓,✓,✓,✓,NRCA,
+9,,13-15,concession,⟶,13,15,S,16,17,N,,,,,,,,,,,,No matching,,,,,,
+10,,,,,,,,,,,,15-17,elaboration,⟵,15,17,S,13,14,N,,No matching,,,,,,
+11,,16,concession,⟶,16,16,S,17,17,N,,16,concession,⟶,16,16,S,17,17,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+12,,18,background,⟵,18,19,S,13,17,N,,18,background,⟵,18,19,S,13,17,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+13,,19,reason,⟵,19,19,S,18,18,N,,19,reason,⟵,19,19,S,18,18,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+14,,2|4,contrast,⟷,2,3,N,4,4,N,,3|4,contrast,⟷,2,3,N,4,4,N,,C1=C2 and A1=A2,✓,✓,✓,✓,NRCA,
+15,,5|7,sameunit,⟷,5,5,N,6,7,N,,5|7,sameunit,⟷,5,5,N,6,7,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+16,,5-7|9,list,⟷,5,8,N,9,12,N,,8|9,list,⟷,8,8,N,9,12,N,,Partially identical CS,✓,✓,✗,✓,NRA,
+17,,11|12,conjunction,⟷,11,11,N,12,12,N,,11|12,conjunction,⟷,10,11,N,12,12,N,,Completely identical CS,✓,✓,✗,✓,NRA,
+18,,13|14,conjunction,⟷,13,13,N,14,14,N,,13|14,conjunction,⟷,13,13,N,14,14,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+19,,13-14|15,list,⟷,13,14,N,15,15,N,,15|17,list,⟷,15,15,N,16,17,N,,Partially identical CS,✓,✓,✗,✗,NR,

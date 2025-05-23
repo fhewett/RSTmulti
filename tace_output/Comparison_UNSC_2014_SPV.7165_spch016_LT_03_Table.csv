@@ -1,0 +1,22 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1-12,summary,⟶,1,13,S,14,14,N,,,,,,,,,,,,No matching,,,,,,
+2,,,,,,,,,,,,14,elaboration,⟵,13,14,S,5,12,N,,No matching,,,,,,
+3,,2,e-elaboration,⟵,2,2,S,1,1,N,,2,e-elaboration,⟵,2,2,S,1,1,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+4,,4,result,⟵,4,4,S,3,3,N,,4,result,⟵,4,4,S,1,3,N,,Completely identical CS,✓,✓,✓,✗,NRC,
+5,,5-12,evidence,⟵,5,12,S,1,4,N,,5-12,evidence,⟵,5,14,S,1,4,N,,Completely identical CS,✓,✓,✗,✓,NRA,
+6,,6,e-elaboration,⟵,6,6,S,5,5,N,,6,e-elaboration,⟵,6,6,S,5,5,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+7,,8,result,⟵,8,8,S,7,7,N,,8,result,⟵,8,8,S,7,7,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+8,,10-12,interpretation,⟵,10,12,S,9,9,N,,10-12,e-elaboration,⟵,10,12,S,9,9,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+9,,11,e-elaboration,⟵,11,11,S,10,10,N,,11,attribution,⟶,11,11,S,12,12,N,,Completely identical CS,✗,✗,✓,✗,C,"N/S, ≠R"
+10,,13,interpretation,⟵,13,13,S,1,12,N,,13,preparation,⟶,13,13,S,14,14,N,,Completely identical CS,✗,✗,✓,✗,C,"N/S, ≠R"
+11,,15,concession,⟶,15,15,S,16,16,N,,15,concession,⟶,15,15,S,16,16,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+12,,18,e-elaboration,⟵,18,18,S,17,17,N,,18,attribution,⟶,18,18,S,19,19,N,,Completely identical CS,✗,✗,✓,✗,C,"N/S, ≠R"
+13,,19,purpose,⟵,19,19,S,17,18,N,,19,e-elaboration,⟵,18,19,S,17,17,N,,Completely identical CS,✓,✗,✗,✗,N,≠R
+14,,21,concession,⟵,21,21,S,20,20,N,,21,elaboration,⟵,21,21,S,20,20,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+15,,1|3,sameunit,⟷,1,2,N,3,4,N,,1|3,sameunit,⟷,1,2,N,3,3,N,,Completely identical CS,✓,✓,✓,✗,NRC,
+16,,5|7|9,list,⟷,5,6,N,7,12,N,,5|7|9,list,⟷,5,6,N,7,12,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+17,,7|9,list,⟷,7,8,N,9,12,N,,7|9,list,⟷,7,8,N,9,12,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+18,,10|12,sameunit,⟷,10,11,N,12,12,N,,10|12,sameunit,⟷,10,10,N,11,12,N,,Completely identical CS,✓,✓,✗,✗,NR,
+19,,14|15-21,joint,⟷,1,14,N,15,21,N,,1-4|15-21,joint,⟷,1,14,N,15,21,N,,C1=C2 and A1=A2,✓,✓,✓,✓,NRCA,
+20,,16|17-21,contrast,⟷,15,16,N,17,21,N,,16|17-21,contrast,⟷,15,16,N,17,21,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+21,,17-18|20,sameunit,⟷,17,19,N,20,21,N,,17|20,sameunit,⟷,17,19,N,20,21,N,,C1=C2 and A1=A2,✓,✓,✓,✓,NRCA,

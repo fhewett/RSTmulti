@@ -1,0 +1,23 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,preparation,⟶,1,1,S,2,22,N,,1,preparation,⟶,1,1,S,2,15,N,,Completely identical CS,✓,✓,✓,✗,NRC,
+2,,3,e-elaboration,⟵,3,3,S,2,2,N,,3,e-elaboration,⟵,3,3,S,2,2,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+3,,5,circumstance,⟵,5,5,S,4,4,N,,4|5,contrast,⟷,4,4,N,5,5,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+4,,7,e-elaboration,⟵,7,7,S,6,6,N,,7,elaboration,⟵,7,7,S,6,6,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+5,,9,elaboration,⟵,9,9,S,8,8,N,,9,evaluation-s,⟵,9,9,S,8,8,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+6,,10,attribution,⟶,10,10,S,11,11,N,,11,elaboration,⟵,11,11,S,10,10,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/S, ≠R"
+7,,11,concession,⟶,10,11,S,12,15,N,,10|12-15,contrast,⟷,10,11,N,12,15,N,,C1=C2 and A1=A2,✗,✗,✗,✓,A,"N/N-N/S, ≠R"
+8,,13,elaboration,⟵,13,13,S,12,12,N,,13,evaluation-s,⟵,13,13,S,12,12,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+9,,15,elaboration,⟵,15,15,S,12,14,N,,14|15,conjunction,⟷,12,14,N,15,15,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+10,,17-19,elaboration,⟵,17,19,S,16,16,N,,17,elaboration,⟵,17,19,S,16,16,N,,C1=C2 and A1=A2,✓,✓,✓,✓,NRCA,
+11,,19,elaboration,⟵,19,19,S,18,18,N,,19,elaboration,⟵,19,19,S,18,18,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+12,,21,e-elaboration,⟵,21,22,S,20,20,N,,20,attribution,⟶,20,20,S,21,22,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/S, ≠R"
+13,,22,elaboration,⟵,22,22,S,21,21,N,,22,e-elaboration,⟵,22,22,S,21,21,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+14,,2|4|6|8|12-15|16|20,list,⟷,2,3,N,4,22,N,,2|4-5|6|8|10-15,list,⟷,2,3,N,4,15,N,,Partially identical CS,✓,✓,✓,✗,NRC,
+15,,4|6|8|12-15|16|20,list,⟷,4,5,N,6,22,N,,4-5|6|8|10-15,list,⟷,4,5,N,6,15,N,,Partially identical CS,✓,✓,✓,✗,NRC,
+16,,6|8|12-15|16|20,list,⟷,6,7,N,8,22,N,,6|8|10-15,list,⟷,6,7,N,8,15,N,,Partially identical CS,✓,✓,✓,✗,NRC,
+17,,8|12-15|16|20,list,⟷,8,9,N,10,22,N,,8|10-15,list,⟷,8,9,N,10,15,N,,Partially identical CS,✓,✓,✓,✗,NRC,
+18,,12|14,sameunit,⟷,12,13,N,14,14,N,,12,attribution,⟶,12,13,S,14,14,N,,C1=C2 and A1=A2,✗,✗,✗,✓,A,"N/N-N/S, ≠R"
+19,,12-15|16|20,list,⟷,10,15,N,16,22,N,,,,,,,,,,,,No matching,,,,,,
+20,,,,,,,,,,,,2-15,background,⟶,1,15,S,16,22,N,,No matching,,,,,,
+21,,16|20,list,⟷,16,19,N,20,22,N,,21-22,interpretation,⟵,20,22,S,16,19,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+22,,17|18,conjunction,⟷,17,17,N,18,19,N,,18,evidence,⟵,18,19,S,17,17,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"

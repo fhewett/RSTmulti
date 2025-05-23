@@ -1,0 +1,29 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,background,⟶,1,4,S,5,5,N,,1,preparation,⟶,1,1,S,2,4,N,,Completely identical CS,✓,✗,✗,✗,N,≠R
+2,,2-4,elaboration,⟵,2,4,S,1,1,N,,2-4,background,⟶,1,4,S,5,6,N,,Completely identical CS,✗,✗,✗,✗,,"N/S, ≠R"
+3,,3,concession,⟵,3,3,S,2,2,N,,3,concession,⟵,3,3,S,2,2,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+4,,7-14,e-elaboration,⟵,7,14,S,6,6,N,,,,,,,,,,,,No matching,,,,,,
+5,,,,,,,,,,,,7-15,background,⟵,7,20,S,1,6,N,,No matching,,,,,,
+6,,9,attribution,⟶,9,9,S,10,10,N,,9,attribution,⟶,9,9,S,10,10,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+7,,11,evaluation-s,⟵,11,12,S,8,10,N,,11,elaboration,⟵,11,12,S,9,10,N,,Completely identical CS,✓,✗,✓,✗,NC,≠R
+8,,12,result,⟵,12,12,S,11,11,N,,12,purpose,⟵,12,12,S,11,11,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+9,,15-19,evaluation-s,⟵,15,21,S,6,14,N,,,,,,,,,,,,No matching,,,,,,
+10,,,,,,,,,,,,9-15,evidence,⟵,9,15,S,7,8,N,,No matching,,,,,,
+11,,16-19,elaboration,⟵,16,19,S,15,15,N,,,,,,,,,,,,No matching,,,,,,
+12,,,,,,,,,,,,21-22,restatement,⟵,21,25,S,1,20,N,,No matching,,,,,,
+13,,20-21,evaluation-s,⟵,20,21,S,15,19,N,,,,,,,,,,,,No matching,,,,,,
+14,,,,,,,,,,,,16,interpretation,⟵,16,20,S,7,15,N,,No matching,,,,,,
+15,,22-24,concession,⟵,22,24,S,6,21,N,,,,,,,,,,,,No matching,,,,,,
+16,,,,,,,,,,,,17-20,purpose,⟵,17,20,S,16,16,N,,No matching,,,,,,
+17,,23,condition,⟵,23,23,S,22,22,N,,23|25,sameunit,⟷,23,24,N,25,25,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+18,,2|4,sameunit,⟷,2,3,N,4,4,N,,2|4,sameunit,⟷,2,3,N,4,4,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+19,,5|6-21,contrast,⟷,1,5,N,6,24,N,,5|6,list,⟷,5,5,N,6,6,N,,Partially identical CS,✓,✗,✗,✗,N,≠R
+20,,7|8-10|13|14,list,⟷,7,7,N,8,14,N,,9-10|14|15,list,⟷,9,12,N,13,15,N,,Partially identical CS,✓,✓,✗,✗,NR,
+21,,8|10,sequence,⟷,8,8,N,9,10,N,,7|8,list,⟷,7,7,N,8,8,N,,Partially identical CS,✓,✗,✗,✗,N,≠R
+22,,8-10|13|14,list,⟷,8,12,N,13,14,N,,14|15,list,⟷,13,14,N,15,15,N,,Partially identical CS,✓,✓,✗,✗,NR,
+23,,13|14,list,⟷,13,13,N,14,14,N,,13,attribution,⟶,13,13,S,14,14,N,,C1=C2 and A1=A2,✗,✗,✗,✓,A,"N/N-N/S, ≠R"
+24,,16|17|18|19,conjunction,⟷,16,16,N,17,19,N,,17|18|19|20,list,⟷,17,17,N,18,20,N,,Partially identical CS,✓,✗,✗,✗,N,≠R
+25,,17|18|19,conjunction,⟷,17,17,N,18,19,N,,18|19|20,list,⟷,18,18,N,19,20,N,,Partially identical CS,✓,✗,✗,✗,N,≠R
+26,,18|19,conjunction,⟷,18,18,N,19,19,N,,19|20,list,⟷,19,19,N,20,20,N,,Partially identical CS,✓,✗,✗,✗,N,≠R
+27,,20|21,conjunction,⟷,20,20,N,21,21,N,,21|22,conjunction,⟷,21,21,N,22,22,N,,Partially identical CS,✓,✓,✗,✗,NR,
+28,,22|24,sameunit,⟷,22,23,N,24,24,N,,24,circumstance,⟵,24,24,S,23,23,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"

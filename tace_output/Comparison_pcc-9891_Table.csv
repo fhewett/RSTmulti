@@ -1,0 +1,29 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1-2,background,⟶,1,6,S,7,22,N,,,,,,,,,,,,No matching,,,,,,
+2,,,,,,,,,,,,1,background,⟶,1,10,S,11,22,N,,No matching,,,,,,
+3,,2,evidence,⟵,2,2,S,1,1,N,,2,result,⟶,2,5,S,6,6,N,,Completely identical CS,✗,✗,✗,✗,,"N/S, ≠R"
+4,,3-6,e-elaboration,⟵,3,6,S,1,2,N,,,,,,,,,,,,No matching,,,,,,
+5,,,,,,,,,,,,2-6,reason,⟵,2,10,S,1,1,N,,No matching,,,,,,
+6,,4,attribution,⟵,4,4,S,3,3,N,,4,attribution,⟵,4,4,S,3,3,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+7,,5,evaluation-s,⟵,5,5,S,3,4,N,,5,evaluation-s,⟵,5,5,S,3,4,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+8,,6,reason,⟵,6,6,S,3,5,N,,,,,,,,,,,,No matching,,,,,,
+9,,,,,,,,,,,,3-4,elaboration,⟵,3,5,S,2,2,N,,No matching,,,,,,
+10,,7-8,circumstance,⟶,7,8,S,9,10,N,,7-8,evidence,⟵,7,10,S,2,6,N,,Completely identical CS,✗,✗,✗,✗,,"N/S, ≠R"
+11,,9-10,antithesis,⟶,7,10,S,11,15,N,,,,,,,,,,,,No matching,,,,,,
+12,,,,,,,,,,,,9,reason,⟵,9,10,S,7,8,N,,No matching,,,,,,
+13,,10,purpose,⟵,10,10,S,9,9,N,,10,elaboration,⟵,10,10,S,9,9,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+14,,11-14,evaluation-n,⟶,11,14,S,15,15,N,,,,,,,,,,,,No matching,,,,,,
+15,,,,,,,,,,,,15,antithesis,⟶,15,15,S,16,19,N,,No matching,,,,,,
+16,,12-13,e-elaboration,⟵,12,13,S,11,11,N,,12-13,elaboration,⟵,12,13,S,11,11,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+17,,16,attribution,⟶,16,16,S,17,18,N,,16,attribution,⟶,16,16,S,17,18,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+18,,16-18,interpretation,⟵,16,19,S,7,15,N,,,,,,,,,,,,No matching,,,,,,
+19,,,,,,,,,,,,16-19,elaboration,⟵,15,19,S,11,14,N,,No matching,,,,,,
+20,,18,condition,⟵,18,18,S,17,17,N,,18,condition,⟵,18,18,S,17,17,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+21,,19,restatement,⟵,19,19,S,16,18,N,,19,restatement,⟵,19,19,S,16,18,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+22,,21,result,⟵,21,21,S,20,20,N,,20|21,conjunction,⟷,20,20,N,21,21,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+23,,22,evaluation-s,⟵,22,22,S,20,21,N,,22,elaboration,⟵,22,22,S,20,21,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+24,,7|8,conjunction,⟷,7,7,N,8,8,N,,7|8,conjunction,⟷,7,7,N,8,8,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+25,,7-15|20-21,joint,⟷,7,19,N,20,22,N,,,,,,,,,,,,No matching,,,,,,
+26,,,,,,,,,,,,20-22,interpretation,⟵,20,22,S,11,19,N,,No matching,,,,,,
+27,,11|14,sameunit,⟷,11,13,N,14,14,N,,11|14,sameunit,⟷,11,13,N,14,14,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+28,,12|13,conjunction,⟷,12,12,N,13,13,N,,12|13,conjunction,⟷,12,12,N,13,13,N,,Completely identical CS,✓,✓,✓,✓,NRCA,

@@ -1,0 +1,19 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,preparation,⟶,1,2,S,3,17,N,,1,purpose,⟶,1,1,S,2,2,N,,Completely identical CS,✓,✗,✗,✗,N,≠R
+2,,2,elaboration,⟵,2,2,S,1,1,N,,2,preparation,⟶,1,2,S,3,6,N,,Completely identical CS,✗,✗,✗,✗,,"N/S, ≠R"
+3,,3-5,concession,⟶,3,5,S,6,6,N,,,,,,,,,,,,No matching,,,,,,
+4,,,,,,,,,,,,3,circumstance,⟶,3,3,S,4,6,N,,No matching,,,,,,
+5,,7,preparation,⟵,7,7,S,3,6,N,,7,preparation,⟶,7,7,S,8,8,N,,Completely identical CS,✗,✓,✓,✗,RC,N/S
+6,,8,preparation,⟶,8,8,S,9,17,N,,8,preparation,⟶,7,8,S,9,17,N,,Completely identical CS,✓,✓,✗,✓,NRA,
+7,,9-17,solutionhood,⟵,8,17,S,3,7,N,,,,,,,,,,,,No matching,,,,,,
+8,,,,,,,,,,,,3-6,solutionhood,⟶,1,6,S,7,17,N,,No matching,,,,,,
+9,,10-17,e-elaboration,⟵,10,17,S,9,9,N,,10-17,elaboration,⟵,10,17,S,9,9,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+10,,12,purpose,⟵,12,12,S,11,11,N,,12,elaboration,⟵,12,12,S,11,11,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+11,,3|4|5,list,⟷,3,3,N,4,5,N,,4,concession,⟶,4,5,S,6,6,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+12,,4|5,list,⟷,4,4,N,5,5,N,,5,evidence,⟵,5,5,S,4,4,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+13,,10|11-14|15-16|17,list,⟷,10,10,N,11,17,N,,10|11|13-14|15-16|17,conjunction,⟷,10,10,N,11,17,N,,C1=C2 and A1=A2,✓,✗,✓,✓,NCA,≠R
+14,,11|13-14,list,⟷,11,12,N,13,14,N,,11|13-14|15-16|17,conjunction,⟷,11,12,N,13,17,N,,Partially identical CS,✓,✗,✓,✗,NC,≠R
+15,,11-14|15-16|17,list,⟷,11,14,N,15,17,N,,13-14|15-16|17,conjunction,⟷,13,14,N,15,17,N,,Partially identical CS,✓,✗,✗,✓,NA,≠R
+16,,13|14,conjunction,⟷,13,13,N,14,14,N,,13|14,conjunction,⟷,13,13,N,14,14,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+17,,15|16,conjunction,⟷,15,15,N,16,16,N,,15|16,conjunction,⟷,15,15,N,16,16,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+18,,15-16|17,list,⟷,15,16,N,17,17,N,,15-16|17,conjunction,⟷,15,16,N,17,17,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R

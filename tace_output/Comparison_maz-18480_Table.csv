@@ -1,0 +1,15 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,reason-n,⟶,1,1,S,2,3,N,,1,reason-n,⟶,1,1,S,2,3,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+2,,2,circumstance,⟶,2,2,S,3,3,N,,2,condition,⟶,2,2,S,3,3,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+3,,4,evidence,⟶,4,4,S,5,5,N,,4,circumstance,⟶,4,4,S,5,5,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+4,,4-5,elaboration,⟵,4,7,S,1,3,N,,4-5,elaboration,⟵,4,7,S,1,3,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+5,,6,antithesis,⟶,6,6,S,7,7,N,,6,antithesis,⟶,6,6,S,7,7,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+6,,7,reason-n,⟵,6,7,S,4,5,N,,7,result,⟵,6,7,S,4,5,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+7,,8,evaluation-n,⟶,8,9,S,10,10,N,,10,evaluation-s,⟵,10,10,S,8,9,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/S, ≠R"
+8,,8-14,evaluation-s,⟵,8,14,S,1,7,N,,,,,,,,,,,,No matching,,,,,,
+9,,,,,,,,,,,,8-9,interpretation,⟵,8,10,S,1,7,N,,No matching,,,,,,
+10,,9,restatement,⟵,9,9,S,8,8,N,,9,interpretation,⟵,9,9,S,8,8,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+11,,12-13,elaboration,⟵,12,13,S,11,11,N,,12-13,reason,⟵,12,13,S,11,11,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+12,,8-13|14,contrast,⟷,8,13,N,14,14,N,,14,interpretation,⟵,14,14,S,1,13,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+13,,10|11,list,⟷,8,10,N,11,13,N,,11,interpretation,⟵,11,13,S,1,10,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+14,,12|13,conjunction,⟷,12,12,N,13,13,N,,12|13,conjunction,⟷,12,12,N,13,13,N,,Completely identical CS,✓,✓,✓,✓,NRCA,

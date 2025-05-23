@@ -1,0 +1,5 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,background,⟶,1,3,S,4,4,N,,1,background,⟶,1,3,S,4,4,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+2,,2,e-elaboration,⟵,2,3,S,1,1,N,,2,e-elaboration,⟵,2,3,S,1,1,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+3,,3,cause,⟵,3,3,S,2,2,N,,3,elaboration,⟵,3,3,S,2,2,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+4,,4|5,list,⟷,1,4,N,5,5,N,,5,preparation,⟵,5,5,S,1,4,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"

@@ -1,0 +1,10 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,preparation,⟶,1,1,S,2,9,N,,1,preparation,⟶,1,1,S,2,9,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+2,,2-5,background,⟶,2,5,S,6,9,N,,,,,,,,,,,,No matching,,,,,,
+3,,,,,,,,,,,,2-3,evaluation-n,⟶,2,5,S,6,6,N,,No matching,,,,,,
+4,,5,e-elaboration,⟵,5,5,S,4,4,N,,5,e-elaboration,⟵,5,5,S,4,4,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+5,,6,reason,⟶,6,6,S,7,9,N,,6,solutionhood,⟶,2,6,S,7,9,N,,Completely identical CS,✓,✗,✗,✓,NA,≠R
+6,,8-9,elaboration,⟵,8,9,S,7,7,N,,8-9,elaboration,⟵,8,9,S,7,7,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+7,,2|3|4,list,⟷,2,2,N,3,5,N,,4,e-elaboration,⟵,4,5,S,2,3,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+8,,3|4,list,⟷,3,3,N,4,5,N,,2|3,list,⟷,2,2,N,3,3,N,,Partially identical CS,✓,✓,✗,✗,NR,
+9,,8|9,conjunction,⟷,8,8,N,9,9,N,,8|9,conjunction,⟷,8,8,N,9,9,N,,Completely identical CS,✓,✓,✓,✓,NRCA,

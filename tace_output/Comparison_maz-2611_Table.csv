@@ -1,0 +1,14 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,background,⟶,1,2,S,3,12,N,,3-6,elaboration,⟵,3,12,S,1,2,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/S, ≠R"
+2,,2,elaboration,⟵,2,2,S,1,1,N,,2,elaboration,⟵,2,2,S,1,1,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+3,,4-5,circumstance,⟶,4,5,S,6,6,N,,4|6,sequence,⟷,4,5,N,6,6,N,,C1=C2 and A1=A2,✗,✗,✗,✓,A,"N/N-N/S, ≠R"
+4,,4-6,evidence,⟵,4,7,S,3,3,N,,4-6,circumstance,⟵,4,6,S,3,3,N,,Completely identical CS,✓,✗,✗,✓,NA,≠R
+5,,7,evidence,⟵,7,7,S,4,6,N,,7,elaboration,⟵,7,12,S,3,6,N,,Completely identical CS,✓,✗,✗,✗,N,≠R
+6,,8-9,evaluation-s,⟶,8,9,S,10,12,N,,,,,,,,,,,,No matching,,,,,,
+7,,,,,,,,,,,,10-11,elaboration,⟵,10,12,S,9,9,N,,No matching,,,,,,
+8,,10,attribution,⟶,10,10,S,11,11,N,,10,attribution,⟶,10,10,S,11,11,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+9,,12,evaluation-s,⟵,12,12,S,10,11,N,,12,evaluation-s,⟵,12,12,S,10,11,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+10,,3|10-12,contrast,⟷,3,7,N,8,12,N,,,,,,,,,,,,No matching,,,,,,
+11,,,,,,,,,,,,8-12,interpretation,⟵,8,12,S,7,7,N,,No matching,,,,,,
+12,,4|5,conjunction,⟷,4,4,N,5,5,N,,5,result,⟵,5,5,S,4,4,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+13,,8|9,contrast,⟷,8,8,N,9,9,N,,8|9,contrast,⟷,8,8,N,9,12,N,,Completely identical CS,✓,✓,✓,✗,NRC,

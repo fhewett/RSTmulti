@@ -1,0 +1,11 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,2-6,elaboration,⟵,2,8,S,1,1,N,,,,,,,,,,,,No matching,,,,,,
+2,,,,,,,,,,,,2-3,antithesis,⟶,2,3,S,4,6,N,,No matching,,,,,,
+3,,4,attribution,⟶,4,4,S,5,6,N,,4,attribution,⟶,4,4,S,5,6,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+4,,7,e-elaboration,⟵,7,8,S,2,6,N,,7,elaboration,⟵,7,8,S,2,6,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+5,,8,attribution,⟵,8,8,S,7,7,N,,8,attribution,⟵,8,8,S,7,7,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+6,,9,interpretation,⟵,9,9,S,1,8,N,,9,evaluation-s,⟵,9,9,S,2,8,N,,Completely identical CS,✓,✗,✓,✗,NC,≠R
+7,,2|3|5-6,sequence,⟷,2,2,N,3,6,N,,2|3,sequence,⟷,2,2,N,3,3,N,,Partially identical CS,✓,✓,✓,✗,NRC,
+8,,3|5-6,sequence,⟷,3,3,N,4,6,N,,,,,,,,,,,,No matching,,,,,,
+9,,,,,,,,,,,,2-8,background,⟵,2,9,S,1,1,N,,No matching,,,,,,
+10,,5|6,conjunction,⟷,5,5,N,6,6,N,,5|6,conjunction,⟷,5,5,N,6,6,N,,Completely identical CS,✓,✓,✓,✓,NRCA,

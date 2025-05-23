@@ -1,0 +1,16 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,preparation,⟶,1,1,S,2,14,N,,1,evaluation-n,⟶,1,1,S,2,2,N,,Completely identical CS,✓,✗,✓,✗,NC,≠R
+2,,3,reason,⟶,3,3,S,4,5,N,,3,reason,⟶,3,3,S,4,5,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+3,,3-14,evidence,⟵,3,14,S,2,2,N,,,,,,,,,,,,No matching,,,,,,
+4,,,,,,,,,,,,3-11,evidence,⟵,3,11,S,1,2,N,,No matching,,,,,,
+5,,5,e-elaboration,⟵,5,5,S,4,4,N,,5,elaboration,⟵,5,5,S,4,4,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+6,,7,elaboration,⟵,7,7,S,6,6,N,,7,elaboration,⟵,7,7,S,6,6,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+7,,9-10,purpose,⟵,9,10,S,8,8,N,,8,purpose,⟶,8,8,S,9,10,N,,C1=A2 and A1=C2,✗,✓,✗,✗,R,N/S
+8,,13,purpose,⟵,13,13,S,12,12,N,,13,evaluation-n,⟶,12,13,S,14,14,N,,Completely identical CS,✗,✗,✗,✗,,"N/S, ≠R"
+9,,4-5|6|8|11|12-14,list,⟷,3,5,N,6,14,N,,4-5|6|9-10|11,list,⟷,3,5,N,6,11,N,,Partially identical CS,✓,✓,✓,✗,NRC,
+10,,6|8|11|12-14,list,⟷,6,7,N,8,14,N,,6|9-10|11,list,⟷,6,7,N,8,11,N,,Partially identical CS,✓,✓,✓,✗,NRC,
+11,,8|11|12-14,list,⟷,8,10,N,11,14,N,,9-10|11,list,⟷,8,10,N,11,11,N,,Partially identical CS,✓,✓,✓,✗,NRC,
+12,,9|10,list,⟷,9,9,N,10,10,N,,9|10,list,⟷,9,9,N,10,10,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+13,,11|12-14,list,⟷,11,11,N,12,14,N,,,,,,,,,,,,No matching,,,,,,
+14,,,,,,,,,,,,12,purpose,⟶,12,12,S,13,13,N,,No matching,,,,,,
+15,,12|14,sameunit,⟷,12,13,N,14,14,N,,1-2|14,joint,⟷,1,11,N,12,14,N,,Partially identical CS,✓,✗,✗,✗,N,≠R

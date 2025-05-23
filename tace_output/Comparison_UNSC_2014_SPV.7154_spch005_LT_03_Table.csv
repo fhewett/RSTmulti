@@ -1,0 +1,9 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,antithesis,⟶,1,1,S,2,4,N,,2-4,elaboration,⟵,2,4,S,1,1,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/S, ≠R"
+2,,3,e-elaboration,⟵,3,4,S,2,2,N,,2|3,conjunction,⟷,2,2,N,3,4,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+3,,4,e-elaboration,⟵,4,4,S,3,3,N,,4,elaboration,⟵,4,4,S,3,3,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+4,,5-7,solutionhood,⟵,5,9,S,1,4,N,,1|5-9,joint,⟷,1,4,N,5,9,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+5,,8,circumstance,⟶,8,8,S,9,9,N,,8|9,list,⟷,8,8,N,9,9,N,,C1=C2 and A1=A2,✗,✗,✗,✓,A,"N/N-N/S, ≠R"
+6,,9,elaboration,⟵,8,9,S,5,7,N,,5|8|9,list,⟷,5,7,N,8,9,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+7,,5|6|7,list,⟷,5,5,N,6,7,N,,6-7,purpose,⟵,6,7,S,5,5,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+8,,6|7,list,⟷,6,6,N,7,7,N,,6|7,conjunction,⟷,6,6,N,7,7,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R

@@ -1,0 +1,14 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,attribution,⟶,1,1,S,2,2,N,,1,attribution,⟶,1,1,S,2,2,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+2,,1-10,reason,⟶,1,10,S,11,14,N,,1-10,reason,⟶,1,10,S,11,14,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+3,,2,background,⟶,1,2,S,3,6,N,,2,preparation,⟶,1,2,S,3,6,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+4,,3,condition,⟶,3,3,S,4,4,N,,3,condition,⟶,3,3,S,4,4,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+5,,5,restatement,⟵,5,6,S,3,4,N,,4,background,⟶,3,4,S,5,6,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/S, ≠R"
+6,,6,elaboration,⟵,6,6,S,5,5,N,,6,elaboration,⟵,6,6,S,5,5,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+7,,7,preparation,⟶,7,7,S,8,8,N,,7|9,sameunit,⟷,7,7,N,8,9,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+8,,8,attribution,⟶,7,8,S,9,10,N,,8,attribution,⟶,8,8,S,9,9,N,,Completely identical CS,✓,✓,✗,✗,NR,
+9,,13,elaboration,⟵,13,14,S,11,12,N,,13,justify,⟵,13,14,S,11,12,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+10,,14,purpose,⟵,14,14,S,13,13,N,,14,purpose,⟵,14,14,S,13,13,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+11,,3-6|9-10,contrast,⟷,1,6,N,7,10,N,,3-6|7-9,contrast,⟷,1,6,N,7,10,N,,C1=C2 and A1=A2,✓,✓,✓,✓,NRCA,
+12,,9|10,conjunction,⟷,9,9,N,10,10,N,,10,otherwise,⟵,10,10,S,7,9,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+13,,11|12,conjunction,⟷,11,11,N,12,12,N,,11|12,conjunction,⟷,11,11,N,12,12,N,,Completely identical CS,✓,✓,✓,✓,NRCA,

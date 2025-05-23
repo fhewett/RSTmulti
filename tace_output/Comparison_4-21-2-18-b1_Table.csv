@@ -1,0 +1,14 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,background,⟶,1,1,S,2,11,N,,1,concession,⟶,1,2,S,3,6,N,,Completely identical CS,✓,✗,✗,✗,N,≠R
+2,,2,concession,⟶,2,2,S,3,4,N,,2,e-elaboration,⟵,2,2,S,1,1,N,,Completely identical CS,✗,✗,✓,✗,C,"N/S, ≠R"
+3,,4,e-elaboration,⟵,4,4,S,3,3,N,,4|5|6,list,⟷,4,4,N,5,6,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+4,,8,cause,⟶,8,8,S,9,9,N,,8,background,⟵,8,11,S,1,7,N,,Completely identical CS,✗,✗,✗,✗,,"N/S, ≠R"
+5,,9,cause,⟶,8,9,S,10,11,N,,9,result,⟵,9,11,S,8,8,N,,Completely identical CS,✗,✗,✗,✗,,"N/S, ≠R"
+6,,11,elaboration,⟵,11,11,S,10,10,N,,11,elaboration,⟵,11,11,S,10,10,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+7,,3-4|5|6|7|10-11,sequence,⟷,2,4,N,5,11,N,,5|6,list,⟷,5,5,N,6,6,N,,Partially identical CS,✓,✗,✗,✗,N,≠R
+8,,5|6|7|10-11,sequence,⟷,5,5,N,6,11,N,,,,,,,,,,,,No matching,,,,,,
+9,,,,,,,,,,,,3-6,background,⟶,1,6,S,7,7,N,,No matching,,,,,,
+10,,6|7|10-11,sequence,⟷,6,6,N,7,11,N,,,,,,,,,,,,No matching,,,,,,
+11,,,,,,,,,,,,4-6,e-elaboration,⟵,4,6,S,3,3,N,,No matching,,,,,,
+12,,7|10-11,sequence,⟷,7,7,N,8,11,N,,,,,,,,,,,,No matching,,,,,,
+13,,,,,,,,,,,,10,result,⟵,10,11,S,9,9,N,,No matching,,,,,,

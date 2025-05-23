@@ -1,0 +1,35 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,preparation,⟶,1,1,S,2,2,N,,1,concession,⟶,1,1,S,2,2,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+2,,2,preparation,⟶,1,2,S,3,31,N,,2,preparation,⟶,1,2,S,3,31,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+3,,4,e-elaboration,⟵,4,4,S,3,3,N,,4,e-elaboration,⟵,4,6,S,3,3,N,,Completely identical CS,✓,✓,✗,✓,NRA,
+4,,5-6,elaboration,⟵,5,6,S,3,4,N,,5-6,elaboration,⟵,5,6,S,4,4,N,,Completely identical CS,✓,✓,✓,✗,NRC,
+5,,7,summary,⟵,7,7,S,3,6,N,,3,evidence,⟶,3,6,S,7,7,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/S, ≠R"
+6,,8,antithesis,⟶,8,8,S,9,9,N,,8,antithesis,⟶,8,8,S,9,9,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+7,,10,concession,⟶,10,10,S,11,14,N,,10,concession,⟶,10,10,S,11,14,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+8,,12,e-elaboration,⟵,12,12,S,11,11,N,,12,e-elaboration,⟵,12,12,S,11,11,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+9,,14,e-elaboration,⟵,14,14,S,13,13,N,,14,e-elaboration,⟵,14,14,S,13,13,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+10,,15,circumstance,⟶,15,15,S,16,16,N,,15|17,sameunit,⟷,15,15,N,16,17,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+11,,16,attribution,⟶,15,16,S,17,17,N,,16,attribution,⟶,16,16,S,17,17,N,,Completely identical CS,✓,✓,✗,✓,NRA,
+12,,17,antithesis,⟶,15,17,S,18,25,N,,,,,,,,,,,,No matching,,,,,,
+13,,,,,,,,,,,,15-19,background,⟶,15,19,S,20,25,N,,No matching,,,,,,
+14,,18,attribution,⟶,18,18,S,19,19,N,,18,attribution,⟶,18,18,S,19,19,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+15,,19,background,⟶,18,19,S,20,22,N,,15-17|19,list,⟷,15,17,N,18,19,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+16,,20-22,evidence,⟶,18,22,S,23,25,N,,,,,,,,,,,,No matching,,,,,,
+17,,,,,,,,,,,,23-24,antithesis,⟶,23,24,S,25,25,N,,No matching,,,,,,
+18,,21,e-elaboration,⟵,21,21,S,20,20,N,,21,e-elaboration,⟵,21,21,S,20,20,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+19,,26,concession,⟶,26,26,S,27,27,N,,26,concession,⟶,26,26,S,27,31,N,,Completely identical CS,✓,✓,✓,✗,NRC,
+20,,26-27,circumstance,⟶,26,29,S,30,31,N,,,,,,,,,,,,No matching,,,,,,
+21,,,,,,,,,,,,28|29|31,list,⟷,28,28,N,29,31,N,,No matching,,,,,,
+22,,28-29,solutionhood,⟵,28,29,S,26,27,N,,,,,,,,,,,,No matching,,,,,,
+23,,,,,,,,,,,,28-31,elaboration,⟵,28,31,S,27,27,N,,No matching,,,,,,
+24,,30,condition,⟶,30,30,S,31,31,N,,30,condition,⟶,30,30,S,31,31,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+25,,3-6|9|11-14|18-25|30-31,list,⟷,3,7,N,8,31,N,,7|9|11-14|20-25|27-31,list,⟷,3,7,N,8,31,N,,C1=C2 and A1=A2,✓,✓,✓,✓,NRCA,
+26,,5|6,conjunction,⟷,5,5,N,6,6,N,,5|6,conjunction,⟷,5,5,N,6,6,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+27,,9|11-14|18-25|30-31,list,⟷,8,9,N,10,31,N,,9|11-14|20-25|27-31,list,⟷,8,9,N,10,31,N,,C1=C2 and A1=A2,✓,✓,✓,✓,NRCA,
+28,,11|13,sameunit,⟷,11,12,N,13,14,N,,11|13,sameunit,⟷,11,12,N,13,14,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+29,,11-14|18-25|30-31,list,⟷,10,14,N,15,31,N,,11-14|20-25|27-31,list,⟷,10,14,N,15,31,N,,C1=C2 and A1=A2,✓,✓,✓,✓,NRCA,
+30,,18-25|30-31,list,⟷,15,25,N,26,31,N,,20-25|27-31,list,⟷,15,25,N,26,31,N,,C1=C2 and A1=A2,✓,✓,✓,✓,NRCA,
+31,,20|22,sameunit,⟷,20,21,N,22,22,N,,20|22,conjunction,⟷,20,21,N,22,22,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+32,,23|24|25,list,⟷,23,23,N,24,25,N,,23|24,list,⟷,23,23,N,24,24,N,,Partially identical CS,✓,✓,✓,✗,NRC,
+33,,24|25,list,⟷,24,24,N,25,25,N,,25,restatement,⟵,23,25,S,20,22,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+34,,28|29,list,⟷,28,28,N,29,29,N,,29|31,list,⟷,29,29,N,30,31,N,,Partially identical CS,✓,✓,✗,✗,NR,

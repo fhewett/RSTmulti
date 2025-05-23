@@ -1,0 +1,21 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,circumstance,⟶,1,1,S,2,2,N,,1,circumstance,⟶,1,1,S,2,2,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+2,,1-2,circumstance,⟶,1,11,S,12,21,N,,1-2|15-20,joint,⟷,1,11,N,12,20,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+3,,3,attribution,⟶,3,3,S,4,5,N,,3,attribution,⟶,3,3,S,4,5,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+4,,3-9,elaboration,⟵,3,11,S,1,2,N,,3-9,evidence,⟵,3,11,S,1,2,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+5,,5,purpose,⟵,5,5,S,4,4,N,,5,purpose,⟵,5,5,S,4,4,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+6,,6,circumstance,⟶,6,6,S,7,7,N,,6,circumstance,⟶,6,6,S,7,9,N,,Completely identical CS,✓,✓,✓,✗,NRC,
+7,,7,attribution,⟶,6,7,S,8,9,N,,7,attribution,⟶,7,7,S,8,9,N,,Completely identical CS,✓,✓,✗,✓,NRA,
+8,,8-9,elaboration,⟵,6,9,S,3,5,N,,4-5|7-9,list,⟷,3,5,N,6,9,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+9,,9,elaboration,⟵,9,9,S,8,8,N,,8|9,list,⟷,8,8,N,9,9,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+10,,10,preparation,⟶,10,10,S,11,11,N,,10,elaboration,⟵,10,11,S,3,9,N,,Completely identical CS,✗,✗,✗,✗,,"N/S, ≠R"
+11,,11,elaboration,⟵,10,11,S,3,9,N,,11,elaboration,⟵,11,11,S,10,10,N,,Completely identical CS,✓,✓,✗,✗,NR,
+12,,12,solutionhood,⟶,12,14,S,15,21,N,,12,cause,⟶,12,14,S,15,20,N,,Completely identical CS,✓,✗,✓,✗,NC,≠R
+13,,13,e-elaboration,⟵,13,14,S,12,12,N,,13,e-elaboration,⟵,13,14,S,12,12,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+14,,14,e-elaboration,⟵,14,14,S,13,13,N,,14,e-elaboration,⟵,14,14,S,13,13,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+15,,16,reason,⟵,16,16,S,15,15,N,,16,reason,⟵,16,16,S,15,15,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+16,,17,circumstance,⟶,17,17,S,18,18,N,,17,circumstance,⟶,17,17,S,18,18,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+17,,17-18,result,⟵,17,21,S,15,16,N,,17-18,elaboration,⟵,17,20,S,15,16,N,,Completely identical CS,✓,✗,✗,✓,NA,≠R
+18,,19-20,elaboration,⟵,19,21,S,17,18,N,,,,,,,,,,,,No matching,,,,,,
+19,,,,,,,,,,,,19,elaboration,⟵,19,20,S,17,18,N,,No matching,,,,,,
+20,,20,attribution,⟵,20,20,S,19,19,N,,20,reason,⟵,20,20,S,19,19,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R

@@ -1,0 +1,21 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,preparation,⟶,1,1,S,2,10,N,,1,preparation,⟶,1,1,S,2,6,N,,Completely identical CS,✓,✓,✓,✗,NRC,
+2,,2-3,background,⟶,2,6,S,7,10,N,,,,,,,,,,,,No matching,,,,,,
+3,,,,,,,,,,,,2-6,background,⟶,1,6,S,7,19,N,,No matching,,,,,,
+4,,3,e-elaboration,⟵,3,3,S,2,2,N,,3,elaboration,⟵,3,3,S,2,2,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+5,,4,cause,⟵,4,6,S,2,3,N,,4,evidence,⟵,4,6,S,2,3,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+6,,5,interpretation,⟵,5,6,S,4,4,N,,5,interpretation,⟵,5,6,S,4,4,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+7,,6,condition,⟵,6,6,S,5,5,N,,6,condition,⟵,6,6,S,5,5,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+8,,9,e-elaboration,⟵,9,9,S,8,8,N,,9,attribution,⟵,9,9,S,8,8,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+9,,12,e-elaboration,⟵,12,12,S,11,11,N,,12,e-elaboration,⟵,12,12,S,11,11,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+10,,15-19,reason,⟵,15,19,S,14,14,N,,15-19,reason,⟵,15,19,S,14,14,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+11,,19,cause,⟵,19,19,S,18,18,N,,19,reason,⟵,19,19,S,18,18,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+12,,2-10|11-19,joint,⟷,1,10,N,11,19,N,,,,,,,,,,,,No matching,,,,,,
+13,,,,,,,,,,,,7,preparation,⟶,7,7,S,8,19,N,,No matching,,,,,,
+14,,7|8-10,conjunction,⟷,7,7,N,8,10,N,,8-10|11-13|14,list,⟷,8,10,N,11,19,N,,Partially identical CS,✓,✗,✗,✗,N,≠R
+15,,8|10,conjunction,⟷,8,9,N,10,10,N,,8|10,conjunction,⟷,8,9,N,10,10,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+16,,11|13,sameunit,⟷,11,12,N,13,13,N,,11|13,sameunit,⟷,11,12,N,13,13,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+17,,11-13|14,list,⟷,11,13,N,14,19,N,,11-13|14,list,⟷,11,13,N,14,19,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+18,,15|16-17|18,list,⟷,15,15,N,16,19,N,,15|16-17|18,list,⟷,15,15,N,16,19,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+19,,16|17,conjunction,⟷,16,16,N,17,17,N,,16|17,conjunction,⟷,16,16,N,17,17,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+20,,16-17|18,list,⟷,16,17,N,18,19,N,,16-17|18,list,⟷,16,17,N,18,19,N,,Completely identical CS,✓,✓,✓,✓,NRCA,

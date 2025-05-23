@@ -1,0 +1,22 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,1,preparation,⟶,1,2,S,3,20,N,,1-2,preparation,⟶,1,2,S,3,20,N,,C1=C2 and A1=A2,✓,✓,✓,✓,NRCA,
+2,,2,elaboration,⟵,2,2,S,1,1,N,,1|2,list,⟷,1,1,N,2,2,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+3,,3,attribution,⟶,3,3,S,4,4,N,,3,attribution,⟶,3,3,S,4,4,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+4,,3-7,reason,⟶,3,7,S,8,15,N,,3-4,background,⟶,3,7,S,8,15,N,,C1=C2 and A1=A2,✓,✗,✓,✓,NCA,≠R
+5,,5,attribution,⟶,5,5,S,6,6,N,,5,attribution,⟶,5,5,S,6,6,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+6,,6,antithesis,⟶,5,6,S,7,7,N,,6,antithesis,⟶,5,6,S,7,7,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+7,,10,attribution,⟶,10,10,S,11,11,N,,10,circumstance,⟶,10,10,S,11,15,N,,Completely identical CS,✓,✗,✓,✗,NC,≠R
+8,,11,circumstance,⟶,10,11,S,12,12,N,,,,,,,,,,,,No matching,,,,,,
+9,,,,,,,,,,,,11-15,restatement,⟵,10,15,S,8,9,N,,No matching,,,,,,
+10,,16,preparation,⟶,16,16,S,17,20,N,,16,preparation,⟶,16,16,S,17,20,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+11,,18,elaboration,⟵,18,18,S,17,17,N,,18,attribution,⟶,18,18,S,19,20,N,,Completely identical CS,✗,✗,✓,✗,C,"N/S, ≠R"
+12,,4|7,contrast,⟷,3,4,N,5,7,N,,7,elaboration,⟵,5,7,S,3,4,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+13,,8|9|12|13|14|15,list,⟷,8,8,N,9,15,N,,12,elaboration,⟵,12,15,S,11,11,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+14,,8-15|17-20,list,⟷,3,15,N,16,20,N,,8-15|17-20,list,⟷,3,15,N,16,20,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+15,,9|12|13|14|15,list,⟷,9,9,N,10,15,N,,8|9,list,⟷,8,8,N,9,9,N,,Partially identical CS,✓,✓,✗,✗,NR,
+16,,12|13|14|15,list,⟷,10,12,N,13,15,N,,,,,,,,,,,,No matching,,,,,,
+17,,,,,,,,,,,,13-15,elaboration,⟵,13,15,S,12,12,N,,No matching,,,,,,
+18,,13|14|15,list,⟷,13,13,N,14,15,N,,13|14|15,list,⟷,13,13,N,14,15,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+19,,14|15,list,⟷,14,14,N,15,15,N,,14|15,list,⟷,14,14,N,15,15,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+20,,17|19,sameunit,⟷,17,18,N,19,19,N,,17,attribution,⟶,17,17,S,18,20,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+21,,17-19|20,list,⟷,17,19,N,20,20,N,,19|20,list,⟷,19,19,N,20,20,N,,Partially identical CS,✓,✓,✗,✓,NRA,

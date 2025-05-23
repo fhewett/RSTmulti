@@ -1,0 +1,24 @@
+﻿ID,,CS-A,Relation-A,Nuc-A,C1-A,C2-A,CN-A,A1-A,A2-A,AN-A,,CS-B,Relation-B,Nuc-B,C1-B,C2-B,CN-B,A1-B,A2-B,AN-B,,Matching,N,R,C,A,Agreement,Disagreement
+1,,3-4,reason,⟵,3,4,S,2,2,N,,3-4,motivation,⟶,1,4,S,5,6,N,,Completely identical CS,✗,✗,✗,✗,,"N/S, ≠R"
+2,,5,result,⟵,5,6,S,2,4,N,,,,,,,,,,,,No matching,,,,,,
+3,,,,,,,,,,,,1-2,evaluation-n,⟶,1,2,S,3,4,N,,No matching,,,,,,
+4,,6,purpose,⟵,6,6,S,5,5,N,,6,purpose,⟵,6,6,S,5,5,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+5,,8,e-elaboration,⟵,8,11,S,7,7,N,,8|9,list,⟷,8,8,N,9,9,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+6,,9-11,e-elaboration,⟵,9,11,S,8,8,N,,,,,,,,,,,,No matching,,,,,,
+7,,,,,,,,,,,,5-6|10-13,list,⟷,1,6,N,7,13,N,,No matching,,,,,,
+8,,11,evaluation-n,⟵,11,11,S,10,10,N,,11,restatement,⟵,11,11,S,10,10,N,,Completely identical CS,✓,✗,✓,✓,NCA,≠R
+9,,12-17,solutionhood,⟵,12,17,S,1,11,N,,,,,,,,,,,,No matching,,,,,,
+10,,,,,,,,,,,,14,circumstance,⟶,14,14,S,15,17,N,,No matching,,,,,,
+11,,13,purpose,⟵,13,13,S,12,12,N,,13,purpose,⟵,13,13,S,12,12,N,,Completely identical CS,✓,✓,✓,✓,NRCA,
+12,,14-15,motivation,⟶,14,15,S,16,16,N,,,,,,,,,,,,No matching,,,,,,
+13,,,,,,,,,,,,8-9,elaboration,⟵,8,9,S,7,7,N,,No matching,,,,,,
+14,,17,motivation,⟵,17,17,S,14,16,N,,,,,,,,,,,,No matching,,,,,,
+15,,,,,,,,,,,,10-11,reason,⟶,10,11,S,12,13,N,,No matching,,,,,,
+16,,1|2-4|7,list,⟷,1,1,N,2,11,N,,1|2,conjunction,⟷,1,1,N,2,2,N,,Partially identical CS,✓,✗,✓,✗,NC,≠R
+17,,2-4|7,list,⟷,2,6,N,7,11,N,,7,background,⟶,7,9,S,10,13,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+18,,3|4,conjunction,⟷,3,3,N,4,4,N,,4,restatement,⟵,4,4,S,3,3,N,,C1=A2 and A1=C2,✗,✗,✗,✗,,"N/N-N/S, ≠R"
+19,,9|10,list,⟷,9,9,N,10,11,N,,,,,,,,,,,,No matching,,,,,,
+20,,,,,,,,,,,,15-17,evaluation-s,⟵,14,17,S,1,13,N,,No matching,,,,,,
+21,,12|14-16,list,⟷,12,13,N,14,17,N,,,,,,,,,,,,No matching,,,,,,
+22,,,,,,,,,,,,16,condition,⟶,15,16,S,17,17,N,,No matching,,,,,,
+23,,14|15,list,⟷,14,14,N,15,15,N,,15,evaluation-n,⟶,15,15,S,16,16,N,,Partially identical CS,✗,✗,✗,✗,,"N/N-N/S, ≠R"
