@@ -26,7 +26,8 @@ If you would like to use your own data, download Tace and parse your files accor
 ## Scripts
 
 The folder `scripts/` contains the scripts which are used to create the CSV files, which contain the categories which we use in our paper (interchangeable relations, etc.).
-The files can be created as follows:
+To run the scripts, first download the requirements as outlined in `requirements.txt`.
+The CSV files can then be created as follows:
 ```
 python create_categories.py 
 ```
