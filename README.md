@@ -4,13 +4,13 @@ Dataset and scripts for RSTmulti
 
 Repository to accompany the The 19th Linguistic Annotation Workshop (LAW 2025) paper: [Disagreements in analyses of rhetorical text structure: A new dataset and first analyses](https://aclanthology.org/)
 
-## Heading 1
+## Data
 
 `alignments_with_transformations/` folder
 
-## Heading 2
+## Scripts
 
-...
+Requirements: Tace [Tace](https://github.com/tkutschbach/RST-Tace)
 
 ## Heading 3
 
