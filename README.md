@@ -16,6 +16,8 @@ The files beginning with `UNSC-*` are previously unpublished doubly-annotated fi
 
 The other files (which end with either `-a2`, `-b1`, or `-or`), are previously unpublished [APA-RST](https://github.com/fhewett/apa-rst) files. More information can be found in the paper: [APA-RST: A Text Simplification Corpus with RST Annotations](https://aclanthology.org/2023.codi-1.23/) (Hewett, CODI 2023).
 
+The RST-DT is available from the [Linguistic Data Consortium](https://catalog.ldc.upenn.edu/LDC2002T07). We used the following files in our analysis: `wsj_0615, wsj_0624, wsj_0630, wsj_0639, wsj_0651, wsj_0669, wsj_0684, wsj_1100, wsj_1102, wsj_1114, wsj_1117, wsj_1123, wsj_1129, wsj_1132, wsj_1141, wsj_1153, wsj_1168, wsj_1304, wsj_1314, wsj_1358, wsj_1924, wsj_1998, wsj_2303, wsj_2328, wsj_2349, wsj_2367`.
+
 
 ## Scripts
 
