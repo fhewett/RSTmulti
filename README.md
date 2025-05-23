@@ -18,14 +18,26 @@ The other files (which end with either `-a2`, `-b1`, or `-or`), are previously u
 
 The RST-DT is available from the [Linguistic Data Consortium](https://catalog.ldc.upenn.edu/LDC2002T07). We used the following files in our analysis: `wsj_0615, wsj_0624, wsj_0630, wsj_0639, wsj_0651, wsj_0669, wsj_0684, wsj_1100, wsj_1102, wsj_1114, wsj_1117, wsj_1123, wsj_1129, wsj_1132, wsj_1141, wsj_1153, wsj_1168, wsj_1304, wsj_1314, wsj_1358, wsj_1924, wsj_1998, wsj_2303, wsj_2328, wsj_2349, wsj_2367`.
 
+## Tace output
+
+The folder `tace_output/` contains the output from [RSTTace](https://github.com/tkutschbach/RST-Tace).
+If you would like to use your own data, download Tace and parse your files accordingly.
 
 ## Scripts
 
-Requirements: Tace [Tace](https://github.com/tkutschbach/RST-Tace)
+The folder `scripts/` contains the scripts which are used to create the CSV files, which contain the categories which we use in our paper (interchangeable relations, etc.).
+The files can be created as follows:
+```
+python create_categories.py 
+```
+If using your own data, or if you want to change the name of the output files, adapt the following arguments (run `python create_categories.py -h` for more details):
+```
+-tace_path
+-corpus_path
+-output_file
+```
 
-## Heading 3
 
-..
 
 ## More information and citation
 
